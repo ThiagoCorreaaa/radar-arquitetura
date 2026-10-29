@@ -24,21 +24,36 @@ const MESES = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov'
 // IA opcional (Google Gemini) para gerar um resumo curto de cada manchete.
 // Sem a chave GEMINI_API_KEY, o robô simplesmente não gera resumos.
 const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
-// Modelo da camada gratuita. Se der erro de modelo, troque pelo "flash" atual (ex.: gemini-2.5-flash).
-const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
+const GEMINI_MODEL_OVERRIDE = process.env.GEMINI_MODEL || ''; // opcional: forçar um modelo específico
+
+// Descobre um modelo "flash" disponível na chave (evita quebrar quando os nomes mudam).
+async function pickModel(){
+  if(GEMINI_MODEL_OVERRIDE) return GEMINI_MODEL_OVERRIDE;
+  try{
+    const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${GEMINI_KEY}`);
+    if(!r.ok) return 'gemini-2.5-flash';
+    const d = await r.json();
+    const models = (d.models || []).filter(m => (m.supportedGenerationMethods || []).includes('generateContent'));
+    const flash = models.find(m => /flash/i.test(m.name) && !/(thinking|exp|preview|lite|vision)/i.test(m.name))
+               || models.find(m => /flash/i.test(m.name))
+               || models[0];
+    return flash ? flash.name.replace(/^models\//,'') : 'gemini-2.5-flash';
+  }catch(e){ return 'gemini-2.5-flash'; }
+}
 
 async function addResumos(items){
   if(!GEMINI_KEY || !items.length){ console.log('Sem chave de IA — seguindo sem resumos.'); return; }
+  const model = await pickModel();
   const lista = items.map((it,i)=>`${i+1}. "${it.titulo}" (fonte: ${it.fonte})`).join('\n');
   const prompt = `Você recebe manchetes de notícias de arquitetura no Brasil. Para cada uma, escreva UMA frase curta (no máximo 25 palavras), em português, neutra e informativa, que contextualize a manchete. Use SOMENTE o que está no título — não invente fatos, números, nomes ou datas que não apareçam nele. Responda APENAS com um array JSON de strings, na mesma ordem das manchetes, sem comentários e sem texto fora do array.\n\nManchetes:\n${lista}`;
   try{
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_KEY}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`;
     const res = await fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.3 } }),
     });
-    if(!res.ok){ console.error(`IA indisponível (status ${res.status}) — seguindo sem resumos.`); return; }
+    if(!res.ok){ console.error(`IA indisponível (modelo ${model}, status ${res.status}) — seguindo sem resumos.`); return; }
     const data = await res.json();
     let txt = (data?.candidates?.[0]?.content?.parts?.[0]?.text || '').replace(/```json/gi,'').replace(/```/g,'').trim();
     const start = txt.indexOf('['), end = txt.lastIndexOf(']');
@@ -46,7 +61,7 @@ async function addResumos(items){
     const arr = JSON.parse(txt);
     if(Array.isArray(arr)){
       items.forEach((it,i)=>{ if(typeof arr[i] === 'string' && arr[i].trim()) it.resumo = arr[i].trim(); });
-      console.log('Resumos gerados pela IA.');
+      console.log(`Resumos gerados pela IA (modelo ${model}).`);
     }
   }catch(e){ console.error('Falha ao gerar resumos: ' + e.message + ' — seguindo sem resumos.'); }
 }
