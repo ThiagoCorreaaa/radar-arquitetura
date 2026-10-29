@@ -18,6 +18,14 @@
       "sk": 20261029
     },
     {
+      "cat": "profissao",
+      "titulo": "Eleição do CAU: arquitetos do ES votam on-line no dia 5",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rSFkyME9yNlBkZlBwS2Z2alhBTm92UTdNbmdJSHB2YUU1Mk9WZm95TzI1YUlyOGxfNS1pQTZ0MHV5blFwSGdqaWhWLWpvLTRpTWlNOW45bU1Gbi1FOHNZd0RBaEF1RUFnS2QxNGwwZkFqQVk?oc=5",
+      "fonte": "ES Brasil",
+      "data": "28 out 2026",
+      "sk": 20261028
+    },
+    {
       "cat": "eventos",
       "titulo": "Casacor PE abre edição 2026 nesta quinta (29), em galpões do Novo Cais, no bairro de São José",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUx5UHMzb2dweTB2MWV5aEVhU1lJVnNXU1AyOVVIZGI3TUp3WnhpczZvaGk0UjNWVjktQnlRVWhCMUNQMFJTOEVtSFhkUHJiM2UzdlM1WkZXcFVld3IyY2tMRXZ0QmFRdVF5Q1dCTDkzTjhkeEx6RG9ZVEVtSjJCcFZCUHhpQ09kM1RWTVppONIBjwFBVV95cUxPYUx5UHMzb2dweTB2MWV5aEVhU1lJVnNXU1AyOVVIZGI3TUp3WnhpczZvaGk0UjNWVjktQnlRVWhCMUNQMFJTOEVtSFhkUHJiM2UzdlM1WkZXcFVld3IyY2tMRXZ0QmFRdVF5Q1dCTDkzTjhkeEx6RG9ZVEVtSjJCcFZCUHhpQ09kM1RWTVppOA?oc=5",
@@ -43,14 +51,6 @@
     },
     {
       "cat": "profissao",
-      "titulo": "CAU/BR lança plataforma Contrate um Arquiteto para cadastrar profissionais",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXJ6a2dEN0pBSURjY0U3MzdNSTVFazV6cDVteFZEaVFMaXlVekFTRU1Uc0l1TklGdWJ0NlJkNDhxSFkybDVna0RtLUQwSWVQeGxqNUhCVXhPQV9Tc2dXeGpSUkhzMTBsT1ZPVm5MU3NNSkhYRFVCWmtiMEhkNnVUZFROTkxsSmo4UmotSlZoRHBJU1lpdDhRWjJLYjg?oc=5",
-      "fonte": "Conselho de Arquitetura e Urbanismo",
-      "data": "23 out 2026",
-      "sk": 20261023
-    },
-    {
-      "cat": "profissao",
       "titulo": "FNA defende fortalecimento da assistência técnica à moradia em reunião com Geraldo Alckmin",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1Y4ZHNMNGtwV2tzWHpLcFR6YURTTS1TQXpnWFNMazg2dndOXzU5MFcyRUtUcGRRUXEyWEZ1T0VXbk9iUl91ejRSX2pKOUJ3eDc5eVRILWxuZWlaaTVCbWVPTzBWQ3F2RjZoSVhBU2pNNnVTd0d3RGhybFJaRWhYVUhwZFBsZnJCcTdkYnVQNFJ1Qm9CeU9EZkJHVjAtZTRBT0Z6bkp4S1JIUEdWZWEw?oc=5",
       "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
@@ -67,9 +67,9 @@
     },
     {
       "cat": "tendencias",
-      "titulo": "CasaPronta: sempre um destaque para Criciúma",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQlZmWUlNSDUtaHRjOWc2ZkJyand3UGc0Z1JKVkM2WlpwWHhGZjA3LUZxdWtOXzhYQV9RSFE0TWtNdWVjemlSNkZMUG53S3QxQXZaa1hwbnIxTS1OVFphbHc3QzAtQUNLcEUxaDV3Yy1keVV0bGtNQ2VVdW1YNHF0LVZxRUVXVUF2U1E?oc=5",
-      "fonte": "Portal Engeplus",
+      "titulo": "Fuja do óbvio em São Paulo com arquitetura, moda e música",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0FPcUpGMFI3UlZaQWhZTThodmlxM0FQbHpMbFNPdklDdFZWSkFhZ2drdW9oeG9xbVRyZmstbnBZWVZIdUhsOVNEMk9UYVVxYWFmQnVoMUZjcWo2NHpPZFpsZU9jWmwtelJVYlNrbC1WeE9yMmh2cTBpdWJJWlFIVGVLdnVCTTBLTDZzbkRFMU1KZU1Kc2k2R0FR?oc=5",
+      "fonte": "Panrotas",
       "data": "19 out 2026",
       "sk": 20261019
     },
@@ -88,6 +88,14 @@
       "fonte": "Extra online",
       "data": "16 out 2026",
       "sk": 20261016
+    },
+    {
+      "cat": "eventos",
+      "titulo": "Prêmio CASACOR Brasília / Correio Braziliense reconhece os melhores ambientes da mostra de 2026",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOa3hoQUNBbHpnNUQ1eFBHQjB6OGhwTmoxdGdHQ2dod21nZFBhZ3VTaHpBZE94VWZMM1EwMTZHcEZ6RjhQRlpmWFhmNDFzT01NN3U0dzBhTFZaNTJGVFRQblFnamFKSThiSGtVNjRpWG03WnlqS2hacVRCZG1EbG9wSzNrbW1EaHRaZXItemxMZlluSEJ3SER5VDhSdk83ZG9NdF9NaFZCbFhGVjQwLUVacGNGdktVbkdVTm1naXRSRk90OE40V1N6OTJJYjFzMDMycUxweEtTNA?oc=5",
+      "fonte": "CASACOR",
+      "data": "13 out 2026",
+      "sk": 20261013
     },
     {
       "cat": "premios",
@@ -114,6 +122,14 @@
       "sk": 20261007
     },
     {
+      "cat": "premios",
+      "titulo": "Anunciado o Prêmio Trajetória da XIV BIAU",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVlFpTWgtcmxyN3VOdm1CeW44NTZpX2MyeVB0anZwZlo0MDJMYTNmVTNNemZjbzBqVWNBYkVmenA3WkhLdC1EWjJyWDVGZnBYbW9WMjBPY0tUZmc1WmdRVW1MaEFDeEIxN1VjWEtxSHV2ZWVrVFQ5Q2VLc21GLU9fUlVmdW1xRFNv?oc=5",
+      "fonte": "Revista PROJETO",
+      "data": "5 out 2026",
+      "sk": 20261005
+    },
+    {
       "cat": "profissao",
       "titulo": "FNA apoia carta “Arquitetura com Lula” em defesa de políticas para cidades e territórios",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc0wtdm52MTBvWjd4RW9vbExuUXl1bzI5R3JXSTJoRXNnbktzc3JjcWpNZWR3cU5zdWd6YXNMcFk1cUpXMmE2RE1iMGlMT2swYTltbnQxOU91UmZGZjZvNDZMNTVoY0VfV1M0NGg2RUM3OHhKekpmMW9vY0hiWGFaY0Z6Y0Nad2Z0THl4QlkzNTJiWHQyTWtxUEI0cGJPZDdZa3ZiNXp6NjFLdw?oc=5",
@@ -123,11 +139,19 @@
     },
     {
       "cat": "premios",
-      "titulo": "Projeto criado na Ufam preserva e internacionaliza o legado de Severiano Mario Porto, o \"arquiteto da floresta\"",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTXhOVW4yUHdWcXJia05YTWlZYkZxZGpybF82QlJPckVualdwY3VWNmdFUFgtLU1FYVZ1Vk1fRVhJb2JUamV0S0FLdURMQ1p4eXBuOEFaMmZ2bVRwSS1EaGZROWhJOUhhaDdWTEdGVUdXYVpGcGZMUThNb0pzdXNxNG1Zb2RPcUFwV1NuQTdva0JjSS1jVk1VZUh5cno2Ni1iVnJ0OS1fRVNhT0N6YTVWOXMtS21hckNuLS1BUHhB?oc=5",
-      "fonte": "UFAM",
-      "data": "30 set 2026",
-      "sk": 20260930
+      "titulo": "Prêmio “Gentileza Urbana” é lançado em Curitiba em evento com arquitetos",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVmNzQ1Bqd0hIM0RLaWwwYzRBNF9ZZ2FESXVUVmRQcWNSQ0RWbGZtZHZ4YWYtWUtUSnZVdkcyb0hkVENpLXZ6LUJiek1HeEpHR2NvNFZTT2dPbXE5MnpkX3JuaFRlbGJxdE5ORS1KS1NNb2l5bXFEQlgxTjJKUE44Z2Q1ZzBlelpROU92d0Yzc2xjbEJMZGtpeDZvaC0xNHpHSEczYlQ5Mm1WdUpKWEhtYlhzMWZGZlnSAbwBQVVfeXFMTnpGajdtLXo0VTdKeTZlb0p2Qm1BTFJ2ZWFPNGFQZWx4dkg2em1lVDVzejRSeHU1MlB4VFpvYXA3c2pwdlpNXy1YMHNpMW9uc0lfNzRSb0taRi05djE0RXpNNXVfYjh2SXNfVldNUVQ3STdRbmlfSWZ4YjVKYmVjLVk5dDVrbkpBS294dW5IaGRGVHFTMzRkVUdTcnZzUHhHR0I0elo3RXloQXluVzRpbTVuajk5TUtTWktXdWs?oc=5",
+      "fonte": "Bem Paraná",
+      "data": "2 out 2026",
+      "sk": 20261002
+    },
+    {
+      "cat": "profissao",
+      "titulo": "Conteúdo CAU/BR: Conselho em transformação",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOW11MjZaQXVZZW94M2k1NVBjNC14QzhBSkRBZjRTd3FnbVZjcW9RM0xBM0NPQjlFTEZOdjhVWFR2eFlQZDFFckVFcUVrVWtWbFFhNVFpQkp0TWU5M05aWFdmUmtwSG4tdzdKT2FPZDV2a1lQaGgzTmwzQVU2WG9pQ19samE1dw?oc=5",
+      "fonte": "Revista PROJETO",
+      "data": "1 out 2026",
+      "sk": 20261001
     },
     {
       "cat": "eventos",
@@ -136,30 +160,6 @@
       "fonte": "G1",
       "data": "28 set 2026",
       "sk": 20260928
-    },
-    {
-      "cat": "eventos",
-      "titulo": "Florianópolis 2026: 27 projetos e 30 anos de história",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcDlfM1FWZFgyX2xubzZISmpOX1Uwb295a0tYOHFid01OTUZBYzJtcFRqSXo1Q3YxeHJrNHBobXgycjU2dG55cS1IQU1janVEdzhiYlFIclVmdDNMUnFjcy1qZFNTWkJHcTI4dzU1V1ZVODRYdzhjSXFiQjZ5XzFsdkhjTVBvMTZsbnFV?oc=5",
-      "fonte": "CASACOR",
-      "data": "26 set 2026",
-      "sk": 20260926
-    },
-    {
-      "cat": "profissao",
-      "titulo": "Concurso Arquitetura Indígena e Amazônia Legal tem cronograma atualizado",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYVdua2ZRZEROeFRtd0k4LWdmME5seGMzNDFGRVZHWE5NMXowbWJSMk9jdDVjd3RpX1lfdWl2N0NiemtmTHptYmliNWg4cHBOZlM0OVhiM0tIbzhNdlVfMnNyNEZfTWljdXVWZFhxd19PQWpuamNybzFnR2ZrWmNISzdyeVJxbHAwMWlOWDUwMTJ6RFA3MTBncG9B?oc=5",
-      "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
-      "data": "24 set 2026",
-      "sk": 20260924
-    },
-    {
-      "cat": "premios",
-      "titulo": "Projeto brasileiro é reconhecido em premiação internacional de arquitetura e paisagismo",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd3R3RjlJSjluNUtWUGgwQ3lfZkQ5c3ZpYkZpVHliMmRqTkszSlVkb1BkRktMVnFwVzNoZ21hMXVuWFV4TFIxTVl6QWphbkdzdEx2WUF0SHFvS2hlNU1UUG9XakVjelNxR1NmRWpCRlBvclVhNDl6RzdJdTlkcTNmRWdmRnJ6ejRYTjIza2N0NnZjQTJnV1oyUHAwQUlnYXk4OE9fc3R4Z3VOSUdGa2xCMzZPOWxYOUFwb2lwZ2xKWENYOFhtWmdlS2V1YnE4blZhNXfSAdcBQVVfeXFMT2hQWks1SEhLTV9VS01EZHh0M3lfRVhzeVgtVEQ3U1VyQW5ad05hVk9yNDhEd1FZaTFoWEJzT0pJS0t1VlZMZ3JYM3pVT04zSURKRXNlX3ZUOUt5X0I4Q1c1d01QQXJwY0FPcWVUWjNqcFotSVFQNi1YWmNCeGVIRFkxSldEM3ZtN0FsRnlHaTBhTHBtcFViTjRlaVdhWGNGTXRHTEQ0czRfNWR1ZlA1QzlJR3h6ZUpBLUkzVGxtRlctWUp5U1ZNV2xkOGFNeUdRMHZ0NFdYMDQ?oc=5",
-      "fonte": "Estadão",
-      "data": "21 set 2026",
-      "sk": 20260921
     }
   ]
 }
