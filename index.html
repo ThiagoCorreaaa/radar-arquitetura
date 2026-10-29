@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radar da Arquitetura</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Jost:wght@300;400;500;600&display=swap">
+<style>
+  /* Radar da Arquitetura — site estático que lê news.json (atualizado pelo robô do GitHub) */
+  :root{
+    --bg:#ECE8DF; --surface:#FBFAF6; --surface-2:#F2EFE8; --surface-3:#E7E2D7;
+    --ink:#2C2420; --ink-soft:#766C5F; --ink-faint:#9A9083;
+    --line:#DED8CB; --line-soft:#E9E4DA;
+    --wine:#512832; --taupe:#8C8577; --sand:#9C7F46; --event:#6C7A6A;
+    --on-wine:#F3EFE8; --on-wine-soft:#C9B9BC;
+    --shadow:0 1px 2px rgba(44,36,32,.05), 0 8px 22px -14px rgba(44,36,32,.22);
+    --radius:14px;
+    --font-display:'Marcellus','Cormorant Garamond',Georgia,serif;
+    --font-body:'Jost','Century Gothic',system-ui,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --bg:#1A1516; --surface:#241E1F; --surface-2:#2B2425; --surface-3:#332B2C;
+    --ink:#ECE6DE; --ink-soft:#AEA498; --ink-faint:#80776B;
+    --line:#39302F; --line-soft:#322A2A;
+    --wine:#4A232C; --taupe:#B3AB9D; --sand:#CBA765; --event:#93A48F;
+    --on-wine:#F0E9E3; --on-wine-soft:#C3A9AE;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 28px -16px rgba(0,0,0,.6);
+    color-scheme:dark;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#1A1516; --surface:#241E1F; --surface-2:#2B2425; --surface-3:#332B2C;
+    --ink:#ECE6DE; --ink-soft:#AEA498; --ink-faint:#80776B;
+    --line:#39302F; --line-soft:#322A2A;
+    --wine:#4A232C; --taupe:#B3AB9D; --sand:#CBA765; --event:#93A48F;
+    --on-wine:#F0E9E3; --on-wine-soft:#C3A9AE;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 10px 28px -16px rgba(0,0,0,.6);
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--font-body);line-height:1.5;-webkit-font-smoothing:antialiased;
+    padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--wine);z-index:40}
+  h2,h3{margin:0;font-weight:400}
+  a{color:inherit}
+  button{font-family:inherit;cursor:pointer}
+  img{max-width:100%}
+
+  .topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--wine);color:var(--on-wine)}
+  .topbar-in{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:14px;
+    padding-block:13px;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+  .brand{display:flex;align-items:center;gap:13px;min-width:0}
+  .brand svg{flex:none;width:28px;height:38px}
+  .brand .names{display:flex;flex-direction:column;line-height:1.1;min-width:0}
+  .brand .n1{font-family:var(--font-display);font-size:16px;letter-spacing:.2em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .brand .n2{font-size:8.5px;letter-spacing:.34em;color:var(--on-wine-soft);padding-left:2px;white-space:nowrap}
+  .upd{margin-left:auto;display:flex;align-items:center;gap:12px}
+  .upd .when{font-size:10.5px;letter-spacing:.04em;color:var(--on-wine-soft);text-align:right;line-height:1.35}
+  .upd .when b{color:var(--on-wine);font-weight:500}
+  .tbtn{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16);color:var(--on-wine);width:34px;height:34px;border-radius:9px;display:grid;place-items:center;font-size:14px;flex:none}
+  .tbtn:hover{background:rgba(255,255,255,.18)}
+
+  main{max-width:1100px;margin:0 auto;
+    padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px));
+    padding-block:24px 56px}
+  .intro{margin-bottom:18px}
+  .intro h2{font-family:var(--font-display);font-size:28px;letter-spacing:.01em;text-wrap:balance}
+  .intro p{color:var(--ink-soft);font-size:13.5px;max-width:62ch;margin:7px 0 0}
+
+  .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+  .chip{background:var(--surface);border:1px solid var(--line);color:var(--ink-soft);height:34px;padding:0 14px;border-radius:20px;font-size:12.5px;letter-spacing:.02em;transition:.15s}
+  .chip:hover{border-color:var(--taupe);color:var(--ink)}
+  .chip.on{background:var(--wine);border-color:var(--wine);color:var(--on-wine)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:18px;display:flex;flex-direction:column;gap:11px}
+  .card .meta{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .tag{display:inline-flex;align-items:center;gap:6px;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft)}
+  .tag .dot{width:7px;height:7px;border-radius:50%}
+  .card .date{font-size:11px;color:var(--ink-faint);white-space:nowrap}
+  .card h3{font-family:var(--font-display);font-size:19px;line-height:1.28}
+  .card .resumo{font-size:13.5px;color:var(--ink-soft);margin:0}
+  .card .src{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-top:12px;border-top:1px solid var(--line-soft);margin-top:auto}
+  .card .fonte{font-size:11.5px;color:var(--ink-faint)}
+  .read{font-size:12.5px;color:var(--wine);text-decoration:none;display:inline-flex;align-items:center;gap:5px;font-weight:500}
+  :root[data-theme="dark"] .read,@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .read{color:var(--sand)}}
+  .read:hover{text-decoration:underline}
+
+  .state{text-align:center;color:var(--ink-faint);padding:50px 16px;font-size:14px}
+  .note{margin-top:28px;background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;font-size:12.5px;color:var(--ink-soft);line-height:1.6}
+  .note b{color:var(--ink);font-weight:600}
+  @media(max-width:460px){ .brand .n2{display:none} .upd .when{display:none} .intro h2{font-size:24px} }
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-in">
+  <div class="brand">
+    <svg viewBox="0 0 60 80" aria-hidden="true">
+      <line x1="20" y1="12" x2="20" y2="68" stroke="var(--on-wine)" stroke-width="2.4"/>
+      <line x1="29" y1="12" x2="29" y2="68" stroke="var(--on-wine)" stroke-width="2.4"/>
+      <path d="M29 12 A 27 28 0 0 1 29 68" fill="none" stroke="var(--on-wine)" stroke-width="2.4"/>
+    </svg>
+    <div class="names"><div class="n1">RADAR DA ARQUITETURA</div><div class="n2">IZADORA CASSIMIRO · PANORAMA DO SETOR</div></div>
+  </div>
+  <div class="upd">
+    <div class="when">Atualizado em<br><b id="updLabel">—</b></div>
+    <button class="tbtn" id="btnTheme" title="Tema claro/escuro">◐</button>
+  </div>
+</div></header>
+
+<main>
+  <div class="intro">
+    <h2>O que está movimentando a arquitetura no Brasil</h2>
+    <p>Uma seleção automática das notícias do setor — profissão, prêmios, eventos e tendências — com o link para ler em cada fonte.</p>
+  </div>
+  <div class="filters" id="filters">
+    <button class="chip on" data-f="todos">Todos</button>
+    <button class="chip" data-f="profissao">Profissão &amp; políticas</button>
+    <button class="chip" data-f="premios">Prêmios</button>
+    <button class="chip" data-f="eventos">Eventos</button>
+    <button class="chip" data-f="tendencias">Tendências</button>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div id="state" class="state">Carregando notícias…</div>
+  <div class="note">
+    <b>Como esta página funciona.</b> Um robô no GitHub lê diariamente os feeds de notícias de arquitetura e grava o arquivo <code>news.json</code>; o site publica o conteúdo novo automaticamente. As notícias são reunidas de fontes públicas e cada cartão leva à matéria original.
+  </div>
+</main>
+
+<script>
+const CAT={
+  profissao:{lab:'Profissão',cor:'var(--wine)'},
+  premios:{lab:'Prêmios',cor:'var(--sand)'},
+  eventos:{lab:'Eventos',cor:'var(--event)'},
+  tendencias:{lab:'Tendências',cor:'var(--taupe)'},
+};
+let NEWS=[], filtro='todos';
+const grid=document.getElementById('grid'), stateEl=document.getElementById('state');
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function render(){
+  const items=NEWS.filter(n=>filtro==='todos'||n.cat===filtro).sort((a,b)=>(b.sk||0)-(a.sk||0));
+  if(!items.length){grid.innerHTML='';stateEl.style.display='block';stateEl.textContent='Nenhuma notícia neste tema por enquanto.';return;}
+  stateEl.style.display='none';
+  grid.innerHTML=items.map(n=>{const c=CAT[n.cat]||CAT.tendencias;return `<article class="card">
+    <div class="meta"><span class="tag"><span class="dot" style="background:${c.cor}"></span>${c.lab}</span><span class="date">${esc(n.data||'')}</span></div>
+    <h3>${esc(n.titulo||'')}</h3>
+    ${n.resumo?`<p class="resumo">${esc(n.resumo)}</p>`:''}
+    <div class="src"><span class="fonte">${esc(n.fonte||'')}</span><a class="read" href="${esc(n.url||'#')}" target="_blank" rel="noopener noreferrer">Ler matéria ↗</a></div>
+  </article>`}).join('');
+}
+document.getElementById('filters').addEventListener('click',e=>{
+  const b=e.target.closest('.chip');if(!b)return;
+  filtro=b.dataset.f;
+  document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x===b));
+  render();
+});
+(function(){let th;try{th=localStorage.getItem('radar_theme')}catch(e){}if(th)document.documentElement.setAttribute('data-theme',th);
+  document.getElementById('btnTheme').onclick=()=>{const cur=document.documentElement.getAttribute('data-theme');
+    const isDark=cur==='dark'||(!cur&&matchMedia('(prefers-color-scheme:dark)').matches);const next=isDark?'light':'dark';
+    document.documentElement.setAttribute('data-theme',next);try{localStorage.setItem('radar_theme',next)}catch(e){}};})();
+
+fetch('news.json',{cache:'no-store'})
+  .then(r=>{if(!r.ok)throw new Error('http');return r.json()})
+  .then(data=>{
+    NEWS=Array.isArray(data.items)?data.items:[];
+    document.getElementById('updLabel').textContent=data.updatedLabel||'—';
+    render();
+  })
+  .catch(()=>{stateEl.textContent='Não foi possível carregar as notícias agora. Tente recarregar a página.';});
+</script>
+</body>
+</html>
