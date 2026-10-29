@@ -1,16 +1,165 @@
 {
   "updatedLabel": "29 de outubro de 2026",
   "items": [
-    {"cat":"profissao","sk":20261026,"data":"26 out 2026","titulo":"Prazo de indicações aos prêmios da FNA é prorrogado","resumo":"A Federação Nacional dos Arquitetos ampliou em dez dias o período para indicar nomes ao Arquiteto e Urbanista do Ano e ao Prêmio FNA 2026.","fonte":"FNA","url":"https://fna.org.br/noticias"},
-    {"cat":"profissao","sk":20261023,"data":"23 out 2026","titulo":"Entidades pedem mais assistência técnica à moradia popular","resumo":"Em reunião com o vice-presidente Geraldo Alckmin, a FNA e outras organizações defenderam o fortalecimento da ATHIS, que leva projeto gratuito a famílias de baixa renda.","fonte":"FNA","url":"https://fna.org.br/noticias"},
-    {"cat":"profissao","sk":20261015,"data":"15 out 2026","titulo":"Categoria comemora o fim da escala 6×1","resumo":"A FNA celebrou a aprovação do fim da jornada 6×1 e ligou a mudança à pauta mais ampla de trabalho digno para arquitetos e urbanistas.","fonte":"FNA","url":"https://fna.org.br/noticias"},
-    {"cat":"premios","sk":20260826,"data":"ago 2026","titulo":"Arquiteto brasileiro entre finalistas de prêmio mundial","resumo":"O baiano David Bastos foi apontado como finalista em uma das principais premiações internacionais de arquitetura, reforçando a presença do país no circuito global.","fonte":"Correio 24 Horas","url":"https://www.correio24horas.com.br/colunistas/alo-alo/baiano-david-bastos-e-finalista-em-uma-das-principais-premiacoes-de-arquitetura-do-mundo-0826"},
-    {"cat":"premios","sk":20260601,"data":"2026","titulo":"Revista lista arquitetos brasileiros em destaque","resumo":"O arquiteto feirense Hugo Ribeiro entrou na seleção de Arquitetos de Destaque de 2026 feita pela revista Exame.","fonte":"Jornal Grande Bahia","url":"https://jornalgrandebahia.com.br/?p=1390969"},
-    {"cat":"premios","sk":20260416,"data":"abr 2026","titulo":"Obra do Ano chega à décima edição","resumo":"A premiação da ArchDaily Brasil, votada pelos leitores, elege os melhores projetos de países de língua portuguesa; em edições recentes o pódio teve obras de escritórios brasileiros.","fonte":"ArchDaily","url":"https://www.archdaily.com/en/1054669/2026-obra-do-ano-award-nominations-open"},
-    {"cat":"premios","sk":20260414,"data":"abr 2026","titulo":"Bienal Ibero-Americana define proposta para Brasília","resumo":"O projeto “Cuidar a Vida” foi o selecionado para a 14ª Bienal Ibero-Americana de Arquitetura e Urbanismo, sediada em Brasília.","fonte":"Casa da Arquitectura","url":"https://casadaarquitectura.pt/en/noticias/cuidar-a-vida-e-a-proposta-selecionada-para-a-xiv-bienal-ibero-americana-de-arquitetura-e-urbanismo-em-brasilia-2026-04-14/"},
-    {"cat":"eventos","sk":20260810,"data":"ago 2026","titulo":"Fortaleza sedia o 22º Congresso Brasileiro de Arquitetos","resumo":"O principal encontro da categoria reuniu grandes nomes no Centro de Eventos do Ceará, com painéis sobre o futuro da profissão e das cidades.","fonte":"O POVO","url":"https://www.opovo.com.br/vidaearte/2026/08/10/fortaleza-recebe-22-congresso-brasileiro-de-arquitetos.html"},
-    {"cat":"tendencias","sk":20260530,"data":"2026","titulo":"Arquitetura de 2026 amadurece em bem-estar e sensorialidade","resumo":"Panoramas do setor apontam sustentabilidade, conforto sensorial e foco no bem-estar como marcas do ano nos projetos.","fonte":"Sienge","url":"https://www.sienge.com.br/blog/tendencias-arquitetura/"},
-    {"cat":"tendencias","sk":20260520,"data":"2026","titulo":"As cores e texturas em alta para o ano","resumo":"Levantamentos de design elegem paletas e materiais que devem guiar reformas e projetos residenciais em 2026.","fonte":"Fast Company Brasil","url":"https://fastcompanybrasil.com/design/pensando-em-mudar-a-casa-veja-cores-e-tendencias-em-alta-em-2026/"},
-    {"cat":"tendencias","sk":20260510,"data":"2026","titulo":"Mostra resume cinco direções do morar contemporâneo","resumo":"Uma edição da CASACOR sintetizou em cinco tendências os rumos dos interiores, do uso de materiais naturais à personalização dos espaços.","fonte":"CASACOR","url":"https://www.prnewswire.com/br/comunicados-para-a-imprensa/casacor-ribeirao-preto-revela-os-caminhos-do-morar-contemporaneo-em-5-tendencias-302568398.html"}
+    {
+      "cat": "premios",
+      "titulo": "SESI Lab reúne atividades da XIV Bienal Ibero-America de Arquitetura e Urbanismo",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOXVFQi1SZUlrT1gtMzZTaGxOR1NYRzdsVnM3anJCX242OHdUTHVyeERzTXpPNmgyZFFYdXJpRGlTcnBVM1I1dnV1enZnRmlxVUhqTW1HU0JNeFdSNkwzX1ViaFhkamtaWG1WOGRmVnl2cXdYYXVsQ0d1LWktWWJqOFVDRktDcW9kOU52emY2VWJQMm9HaEtrMUdpRHlPR0FqVUwxamhkUDRxU3pKOHRySkVYU29lV3RSdHFidGpsakNEdXlJT1AyTDZrODZmYms5ZG9Hei1FZXQ?oc=5",
+      "fonte": "Agência de Notícias da Indústria",
+      "data": "29 out 2026",
+      "sk": 20261029
+    },
+    {
+      "cat": "eventos",
+      "titulo": "CASACOR Ceará 2026 reúne projetos que conectam arquitetura natureza e bem-estar",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcWpMbS1iSkJ2NlBfd1FjZjdldHROcUJpTnpuOEZocmY5MGF0NFZXMmdZZ0xZRXA2RnI3TThYc2ZaTFBsV1FoSk01RnQwelFhRkQ1RlY2TTNUR3U3cFBmQ3gwTFUweDYwOVlxdlhCaklqc3NtWjROTVB0TzJOdkRId2FvdC1EUVN0ZFhuVmhXRzk?oc=5",
+      "fonte": "TrendsCE",
+      "data": "29 out 2026",
+      "sk": 20261029
+    },
+    {
+      "cat": "profissao",
+      "titulo": "Eleição do CAU: arquitetos do ES votam on-line no dia 5",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rSFkyME9yNlBkZlBwS2Z2alhBTm92UTdNbmdJSHB2YUU1Mk9WZm95TzI1YUlyOGxfNS1pQTZ0MHV5blFwSGdqaWhWLWpvLTRpTWlNOW45bU1Gbi1FOHNZd0RBaEF1RUFnS2QxNGwwZkFqQVk?oc=5",
+      "fonte": "ES Brasil",
+      "data": "28 out 2026",
+      "sk": 20261028
+    },
+    {
+      "cat": "premios",
+      "titulo": "Arquiteto baiano Antonio Caramelo conquista prêmio internacional com projeto residencial em Salvador",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMlFuYTN5eVgyVm1OSWtGUGxQUlVxTUdac1NUcS01QUFmTWJYSjMtcHpPTUV2Um1LUEtBQk5VSUJnOUdGcGxERXlJSzUxUG5uRkdLM0VrekM2QjY3WlNxUS1rRUJNWXlrb0tYTTBHZS13dzF5ZlozYWFVRXlTd25iVlFWRXRONFludGVLVFZRZnVYTmxva3lYX09LNHFzNG5mTGNJX0hGcmlCR0VyN1dHdzNydkFCU2Jnc3Q5ZWJCU1ZuYzdoNTFMbTBZSGFONlczRmRWRXk0Zk11dERFMzdrZWR0d0JQM201MkE?oc=5",
+      "fonte": "Bahia Notícias",
+      "data": "28 out 2026",
+      "sk": 20261028
+    },
+    {
+      "cat": "eventos",
+      "titulo": "Casacor PE abre edição 2026 nesta quinta (29), em galpões do Novo Cais, no bairro de São José",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUx5UHMzb2dweTB2MWV5aEVhU1lJVnNXU1AyOVVIZGI3TUp3WnhpczZvaGk0UjNWVjktQnlRVWhCMUNQMFJTOEVtSFhkUHJiM2UzdlM1WkZXcFVld3IyY2tMRXZ0QmFRdVF5Q1dCTDkzTjhkeEx6RG9ZVEVtSjJCcFZCUHhpQ09kM1RWTVppONIBjwFBVV95cUxPYUx5UHMzb2dweTB2MWV5aEVhU1lJVnNXU1AyOVVIZGI3TUp3WnhpczZvaGk0UjNWVjktQnlRVWhCMUNQMFJTOEVtSFhkUHJiM2UzdlM1WkZXcFVld3IyY2tMRXZ0QmFRdVF5Q1dCTDkzTjhkeEx6RG9ZVEVtSjJCcFZCUHhpQ09kM1RWTVppOA?oc=5",
+      "fonte": "Folha PE",
+      "data": "28 out 2026",
+      "sk": 20261028
+    },
+    {
+      "cat": "tendencias",
+      "titulo": "Greenplac discute tendências do morar com profissionais em Ribeirão Preto",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX1AxdFd4NWdMai11S0VMNnJlTnZFRnoyQlJYVXRyUEt0V09sYXJ5ejVfNXgzZmNTYm9rY2lmdEZWZnJRMGJoalh2M3pVT3VqeGdhUWNkSWJQWTJxWmlRdDYwRXVSeTJYMUlsa0pweHFoX1l1ZDA4ZlV6N190Q3lQZUtjZW1majM4?oc=5",
+      "fonte": "issoebrasil.com.br",
+      "data": "27 out 2026",
+      "sk": 20261027
+    },
+    {
+      "cat": "tendencias",
+      "titulo": "Novo Relatório do Setor de Cozinhas Revela as Cinco Principais Tendências de Wellness",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQlN5ZlJka2dMRk5wMGxENWU0Mi00aVFpbE5uZG5GbGZ4Skh5dE9YYTJxT2lZSklHUGZjWWhmeFJKVERlRFd0U014V2FCVmdEajcxc19zM19mRHdJUng4NkRjUkVCSmlhU1hRYVUwMXlsanRxYjNqMlloUkRPbzY3TDFJR3UwelZpR3YxU3JuSmM2V2FXeGQ3a19hRHlFMWpVeXNGaC1R?oc=5",
+      "fonte": "Forbes Brasil",
+      "data": "25 out 2026",
+      "sk": 20261025
+    },
+    {
+      "cat": "profissao",
+      "titulo": "FNA defende fortalecimento da assistência técnica à moradia em reunião com Geraldo Alckmin",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1Y4ZHNMNGtwV2tzWHpLcFR6YURTTS1TQXpnWFNMazg2dndOXzU5MFcyRUtUcGRRUXEyWEZ1T0VXbk9iUl91ejRSX2pKOUJ3eDc5eVRILWxuZWlaaTVCbWVPTzBWQ3F2RjZoSVhBU2pNNnVTd0d3RGhybFJaRWhYVUhwZFBsZnJCcTdkYnVQNFJ1Qm9CeU9EZkJHVjAtZTRBT0Z6bkp4S1JIUEdWZWEw?oc=5",
+      "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
+      "data": "23 out 2026",
+      "sk": 20261023
+    },
+    {
+      "cat": "premios",
+      "titulo": "Professora da USP recebe Prêmio Trajetória da Bienal Ibero-Americana de Arquitetura e Urbanismo",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNa1dEc0ZtSU13SjRuU2ZNNWl2TnNyMUdGRFFUSFNkTG9hNGozdWlvd0FSYVc0cnd4dzFqVEZ2TWk0Nlc2OTRqeldSSk9XSzVEbGFYaU1LVHN0MnFCSzZoMWltQnVDcjhoWkl4UGVFbjI3aVBIaWxiemRnbHliV0d6MGh3Sy01QWI5WHk0anotMjhucjlIUjNkYlNGZmYwTGMxY3A2ZWJqVmdxRUNiR2pGTmdFTnlFeUxkb3NBRTQ1Zi1IOENPeXlqcHYybw?oc=5",
+      "fonte": "Jornal da USP",
+      "data": "23 out 2026",
+      "sk": 20261023
+    },
+    {
+      "cat": "tendencias",
+      "titulo": "Fuja do óbvio em São Paulo com arquitetura, moda e música",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0FPcUpGMFI3UlZaQWhZTThodmlxM0FQbHpMbFNPdklDdFZWSkFhZ2drdW9oeG9xbVRyZmstbnBZWVZIdUhsOVNEMk9UYVVxYWFmQnVoMUZjcWo2NHpPZFpsZU9jWmwtelJVYlNrbC1WeE9yMmh2cTBpdWJJWlFIVGVLdnVCTTBLTDZzbkRFMU1KZU1Kc2k2R0FR?oc=5",
+      "fonte": "Panrotas",
+      "data": "19 out 2026",
+      "sk": 20261019
+    },
+    {
+      "cat": "tendencias",
+      "titulo": "Decoração: como escolher tendências que não saem de moda",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLXpENzFhNWVKbGc3dE5wY0JBZGxwUUtoaWJIOENoSmtKMC0xRGk0dXV3aXNTNzFQQzl2aEtNZTdlaml2cG95MFhJVE1oQ25GRUZ0ZXN0VVJ4NzlHdWhXMl9pVER1ZlRFenlYLW5MQ0o2V0EzTjRRVnF1WjdtTk1UVjQ2RFdwV2xtaVYtNHJ3ZVMxTFlwbU9YckthaEdHN3l6QmxjMTU5VW9uU01xUnBadXJweVFUZHFVSXc?oc=5",
+      "fonte": "Correio do Povo",
+      "data": "19 out 2026",
+      "sk": 20261019
+    },
+    {
+      "cat": "tendencias",
+      "titulo": "Casacor Ceará 2026 abre ao público com 35 ambientes, tendências de decoração e homenagens",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcUhZc2N1dVA4R1ZEQUZ4RFBURDRwNE5qYWpMLTk4OFlKdGRJOXA2dllFeWNUVEotZnhOSGpTV0xSanlxSFZHR3VBQVI4blVZSU9XWFZfYVJDX3FoVzNFZ3l1bExraEZJeFBTZ0Z4MUVaeW1GUUVic0tFbG9IenZWZFN3SGo4eENJWVB4Q0FCb1lQSXItUHhVaGlpeGgzTFRiellNWGNPeUdLWDVWSTFJbVJpdHFTN2FpUkd2aTdUNDlzTWpyY1gzMTRyU2NmVDNsS2tyOHpmVWhlSE3SAeoBQVVfeXFMT2NMUTJEcnVtdWVqc2lPaEptZnNzLTQwZkUzX1lpZ3d4MkstVTJCVXRaZ0s2RnhsbFp0ZlljOE1DUzJ0T3VCYlR5ZHNYaVVGa2xFdEtwR3lKdm9WZndiZEE5MWdQNU5vVjNHbjZmMTdVZENaaTdNNWRoOFZUbGNfT2JfRkl0bWpPWXYtRHRsZ2dvdDJ3dFdsOE53YVpzWFpsMHAtS3VLdTN6STdXaklrNDJYQWFjVXcwRFIzaXIxSWhwU3o0UFAtQkI2SHp2WVY0eEI1SU9pUWQ4ODNCeUZiUTdWTlYzeU00UXZB?oc=5",
+      "fonte": "G1",
+      "data": "15 out 2026",
+      "sk": 20261015
+    },
+    {
+      "cat": "premios",
+      "titulo": "Projeto do Jardim de Alah é finalista de prêmio internacional de arquitetura",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQjBXaFg2Mkx3eDMwQzZabUVnQ0xmNVpsdlhXZEUxQ2YxN3NScG9pbWhiQjJkT3diSzN2am5uS1BaTl9weXlzTlJCY21qWXNVUGJJdGxOYTcxbnZfb05taWZvbGtXUFE5VlJNdWEwRFNvZzdVcGxKMHBDTDZLbGRQeXQyRUJaNUVsTFczMGJhekZrM01Db1o0WWZlZThxXzFXbERQM1FTd19SMW41NEVWeDczT25nak1KZnZ2U01zbmczZkFYdWJVSE530gHYAUFVX3lxTE9salU2N2hDa0V3dkl5TGN1eGVycHVwdHJyaFoxZnF1THdBUS1UTGxNM3pIdHpjUFkwa1gzcEdrX1pDOU95Vm1xbXliNUNvUEtsdWxQNEp2clNib1ZtSDFldERYeWtWTG9ORjIwUGZaQ3VWa3dhcFNNeVZEQ2VsN0JNRnZrVTFwM2MzWWVNVnFDWENwM2VhYmxKQ1VxZW84ZXVMUUlhWXBrV0ZNa2VVRU92U1J6WFYxVTlLMk04YlFFbHE4ZUdtbnc0VVFvY3d3T1NGcWJXQy1zZA?oc=5",
+      "fonte": "O GLOBO",
+      "data": "10 out 2026",
+      "sk": 20261010
+    },
+    {
+      "cat": "profissao",
+      "titulo": "FNA participa de projeto da ICM sobre trabalho decente nas Rotas de Integração Sul-Americana",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRFR5V05WMWxVMFIxVjhZN213MU9mMWp0VWlEdkhUb3U2M3NmT0dENl9fMDFnVmRCQ1ZnS2VFTVpaOFBzNVZaZFNCMG56eFlJTk10T2pxcDF2MjAwLU1vUzlWUk9YNXZoUkdlaTFwZmcxX0pxeWludGxvRFAtZHFzQzJqRXNsNW91VzU0MEdnR0xjdHZwZ3ZuemtKT09tM2lMXzY4NUlxUDBCRGxmLVVLMy1n?oc=5",
+      "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
+      "data": "8 out 2026",
+      "sk": 20261008
+    },
+    {
+      "cat": "eventos",
+      "titulo": "22º CBA - Revista PROJETO",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZ3NxeUJxQXhsSFRLRzVqbFQ5U3BtN0pONUZqcEtnZ0xQd1c3VTNrelc2UEVPS29TMndienBsSm5VaHVQQVZaaUlZMVFUWGV3Z3VoeWItbmw5cHkzMUxhYVUzY0FxVXRvMzVlakg1Mks2NHVyekRyMzhkSGd2TWh1LUxn?oc=5",
+      "fonte": "Revista PROJETO",
+      "data": "7 out 2026",
+      "sk": 20261007
+    },
+    {
+      "cat": "premios",
+      "titulo": "Anunciado o Prêmio Trajetória da XIV BIAU",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVlFpTWgtcmxyN3VOdm1CeW44NTZpX2MyeVB0anZwZlo0MDJMYTNmVTNNemZjbzBqVWNBYkVmenA3WkhLdC1EWjJyWDVGZnBYbW9WMjBPY0tUZmc1WmdRVW1MaEFDeEIxN1VjWEtxSHV2ZWVrVFQ5Q2VLc21GLU9fUlVmdW1xRFNv?oc=5",
+      "fonte": "Revista PROJETO",
+      "data": "5 out 2026",
+      "sk": 20261005
+    },
+    {
+      "cat": "profissao",
+      "titulo": "FNA apoia carta “Arquitetura com Lula” em defesa de políticas para cidades e territórios",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc0wtdm52MTBvWjd4RW9vbExuUXl1bzI5R3JXSTJoRXNnbktzc3JjcWpNZWR3cU5zdWd6YXNMcFk1cUpXMmE2RE1iMGlMT2swYTltbnQxOU91UmZGZjZvNDZMNTVoY0VfV1M0NGg2RUM3OHhKekpmMW9vY0hiWGFaY0Z6Y0Nad2Z0THl4QlkzNTJiWHQyTWtxUEI0cGJPZDdZa3ZiNXp6NjFLdw?oc=5",
+      "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
+      "data": "2 out 2026",
+      "sk": 20261002
+    },
+    {
+      "cat": "profissao",
+      "titulo": "Conteúdo CAU/BR: Conselho em transformação",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOW11MjZaQXVZZW94M2k1NVBjNC14QzhBSkRBZjRTd3FnbVZjcW9RM0xBM0NPQjlFTEZOdjhVWFR2eFlQZDFFckVFcUVrVWtWbFFhNVFpQkp0TWU5M05aWFdmUmtwSG4tdzdKT2FPZDV2a1lQaGgzTmwzQVU2WG9pQ19samE1dw?oc=5",
+      "fonte": "Revista PROJETO",
+      "data": "1 out 2026",
+      "sk": 20261001
+    },
+    {
+      "cat": "eventos",
+      "titulo": "Florianópolis 2026: 27 projetos e 30 anos de história",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcDlfM1FWZFgyX2xubzZISmpOX1Uwb295a0tYOHFid01OTUZBYzJtcFRqSXo1Q3YxeHJrNHBobXgycjU2dG55cS1IQU1janVEdzhiYlFIclVmdDNMUnFjcy1qZFNTWkJHcTI4dzU1V1ZVODRYdzhjSXFiQjZ5XzFsdkhjTVBvMTZsbnFV?oc=5",
+      "fonte": "CASACOR",
+      "data": "26 set 2026",
+      "sk": 20260926
+    },
+    {
+      "cat": "eventos",
+      "titulo": "CASACOR SC Florianópolis 2026 revela detalhes dos ambientes antes da abertura",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd1VsaFk1V181ek9FSzQ2c0E3aTNkQWpfeTRMWXFVSXI4cWNWeThJdjROZlJBY0hQbnpqVWFKbHpsM2YyOHg1UEFSaTNVM3VLaE9GWU9tazd4T00zN2tZMl9wS194MDRKZHdLZFVQZXFRZGxuUndtelNsYUhuMDFkMzRTYUNvM2MycTMyM2lXWlIzYTAwOHFlOHZURDFyY2xFdTBXd2Y3cDM3cnJ2anRZTkdLS08zN0w5?oc=5",
+      "fonte": "Acontecendo Aqui",
+      "data": "24 set 2026",
+      "sk": 20260924
+    }
   ]
 }
