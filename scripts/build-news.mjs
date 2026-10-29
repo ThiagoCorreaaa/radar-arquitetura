@@ -1,4 +1,5 @@
-// Robô do Radar da Arquitetura — lê o Google Notícias (RSS público, sem chave) e gera news.json.
+// Robô do Radar da Arquitetura — lê o Google Notícias (RSS público) e gera news.json.
+// Resumo de cada manchete é opcional, via Google Gemini (chave GEMINI_API_KEY).
 // Roda no GitHub Actions (Node 20+, fetch nativo). Sem dependências externas.
 import { writeFileSync } from 'node:fs';
 
@@ -20,6 +21,36 @@ const PER_CAT   = 5;       // máximo por tema no resultado final
 const MIN_TOTAL = 4;       // abaixo disso, não sobrescreve (mantém o último bom)
 const MESES = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
 
+// IA opcional (Google Gemini) para gerar um resumo curto de cada manchete.
+// Sem a chave GEMINI_API_KEY, o robô simplesmente não gera resumos.
+const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
+// Modelo da camada gratuita. Se der erro de modelo, troque pelo "flash" atual (ex.: gemini-2.5-flash).
+const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
+
+async function addResumos(items){
+  if(!GEMINI_KEY || !items.length){ console.log('Sem chave de IA — seguindo sem resumos.'); return; }
+  const lista = items.map((it,i)=>`${i+1}. "${it.titulo}" (fonte: ${it.fonte})`).join('\n');
+  const prompt = `Você recebe manchetes de notícias de arquitetura no Brasil. Para cada uma, escreva UMA frase curta (no máximo 25 palavras), em português, neutra e informativa, que contextualize a manchete. Use SOMENTE o que está no título — não invente fatos, números, nomes ou datas que não apareçam nele. Responda APENAS com um array JSON de strings, na mesma ordem das manchetes, sem comentários e sem texto fora do array.\n\nManchetes:\n${lista}`;
+  try{
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_KEY}`;
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.3 } }),
+    });
+    if(!res.ok){ console.error(`IA indisponível (status ${res.status}) — seguindo sem resumos.`); return; }
+    const data = await res.json();
+    let txt = (data?.candidates?.[0]?.content?.parts?.[0]?.text || '').replace(/```json/gi,'').replace(/```/g,'').trim();
+    const start = txt.indexOf('['), end = txt.lastIndexOf(']');
+    if(start >= 0 && end > start) txt = txt.slice(start, end+1);
+    const arr = JSON.parse(txt);
+    if(Array.isArray(arr)){
+      items.forEach((it,i)=>{ if(typeof arr[i] === 'string' && arr[i].trim()) it.resumo = arr[i].trim(); });
+      console.log('Resumos gerados pela IA.');
+    }
+  }catch(e){ console.error('Falha ao gerar resumos: ' + e.message + ' — seguindo sem resumos.'); }
+}
+
 function gnUrl(q){
   const query = encodeURIComponent(`${q} ${WHEN}`);
   return `https://news.google.com/rss/search?q=${query}&hl=pt-BR&gl=BR&ceid=BR:pt-150`;
@@ -37,7 +68,7 @@ function pick(block, name){
   return m ? m[1] : '';
 }
 function normKey(t){
-  return t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'')
+  return t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
     .replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim().slice(0,70);
 }
 
@@ -100,6 +131,8 @@ async function main(){
     console.error(`Apenas ${items.length} itens — abaixo do mínimo (${MIN_TOTAL}). news.json não foi alterado.`);
     process.exit(1);
   }
+
+  await addResumos(items);
 
   const updatedLabel = new Date().toLocaleDateString('pt-BR',
     { day:'2-digit', month:'long', year:'numeric', timeZone:'America/Campo_Grande' });
