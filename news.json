@@ -18,22 +18,6 @@
       "sk": 20261029
     },
     {
-      "cat": "profissao",
-      "titulo": "Eleição do CAU: arquitetos do ES votam on-line no dia 5",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rSFkyME9yNlBkZlBwS2Z2alhBTm92UTdNbmdJSHB2YUU1Mk9WZm95TzI1YUlyOGxfNS1pQTZ0MHV5blFwSGdqaWhWLWpvLTRpTWlNOW45bU1Gbi1FOHNZd0RBaEF1RUFnS2QxNGwwZkFqQVk?oc=5",
-      "fonte": "ES Brasil",
-      "data": "28 out 2026",
-      "sk": 20261028
-    },
-    {
-      "cat": "premios",
-      "titulo": "Arquiteto baiano Antonio Caramelo conquista prêmio internacional com projeto residencial em Salvador",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMlFuYTN5eVgyVm1OSWtGUGxQUlVxTUdac1NUcS01QUFmTWJYSjMtcHpPTUV2Um1LUEtBQk5VSUJnOUdGcGxERXlJSzUxUG5uRkdLM0VrekM2QjY3WlNxUS1rRUJNWXlrb0tYTTBHZS13dzF5ZlozYWFVRXlTd25iVlFWRXRONFludGVLVFZRZnVYTmxva3lYX09LNHFzNG5mTGNJX0hGcmlCR0VyN1dHdzNydkFCU2Jnc3Q5ZWJCU1ZuYzdoNTFMbTBZSGFONlczRmRWRXk0Zk11dERFMzdrZWR0d0JQM201MkE?oc=5",
-      "fonte": "Bahia Notícias",
-      "data": "28 out 2026",
-      "sk": 20261028
-    },
-    {
       "cat": "eventos",
       "titulo": "Casacor PE abre edição 2026 nesta quinta (29), em galpões do Novo Cais, no bairro de São José",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYUx5UHMzb2dweTB2MWV5aEVhU1lJVnNXU1AyOVVIZGI3TUp3WnhpczZvaGk0UjNWVjktQnlRVWhCMUNQMFJTOEVtSFhkUHJiM2UzdlM1WkZXcFVld3IyY2tMRXZ0QmFRdVF5Q1dCTDkzTjhkeEx6RG9ZVEVtSjJCcFZCUHhpQ09kM1RWTVppONIBjwFBVV95cUxPYUx5UHMzb2dweTB2MWV5aEVhU1lJVnNXU1AyOVVIZGI3TUp3WnhpczZvaGk0UjNWVjktQnlRVWhCMUNQMFJTOEVtSFhkUHJiM2UzdlM1WkZXcFVld3IyY2tMRXZ0QmFRdVF5Q1dCTDkzTjhkeEx6RG9ZVEVtSjJCcFZCUHhpQ09kM1RWTVppOA?oc=5",
@@ -59,6 +43,14 @@
     },
     {
       "cat": "profissao",
+      "titulo": "CAU/BR lança plataforma Contrate um Arquiteto para cadastrar profissionais",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXJ6a2dEN0pBSURjY0U3MzdNSTVFazV6cDVteFZEaVFMaXlVekFTRU1Uc0l1TklGdWJ0NlJkNDhxSFkybDVna0RtLUQwSWVQeGxqNUhCVXhPQV9Tc2dXeGpSUkhzMTBsT1ZPVm5MU3NNSkhYRFVCWmtiMEhkNnVUZFROTkxsSmo4UmotSlZoRHBJU1lpdDhRWjJLYjg?oc=5",
+      "fonte": "Conselho de Arquitetura e Urbanismo",
+      "data": "23 out 2026",
+      "sk": 20261023
+    },
+    {
+      "cat": "profissao",
       "titulo": "FNA defende fortalecimento da assistência técnica à moradia em reunião com Geraldo Alckmin",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1Y4ZHNMNGtwV2tzWHpLcFR6YURTTS1TQXpnWFNMazg2dndOXzU5MFcyRUtUcGRRUXEyWEZ1T0VXbk9iUl91ejRSX2pKOUJ3eDc5eVRILWxuZWlaaTVCbWVPTzBWQ3F2RjZoSVhBU2pNNnVTd0d3RGhybFJaRWhYVUhwZFBsZnJCcTdkYnVQNFJ1Qm9CeU9EZkJHVjAtZTRBT0Z6bkp4S1JIUEdWZWEw?oc=5",
       "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
@@ -75,9 +67,9 @@
     },
     {
       "cat": "tendencias",
-      "titulo": "Fuja do óbvio em São Paulo com arquitetura, moda e música",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0FPcUpGMFI3UlZaQWhZTThodmlxM0FQbHpMbFNPdklDdFZWSkFhZ2drdW9oeG9xbVRyZmstbnBZWVZIdUhsOVNEMk9UYVVxYWFmQnVoMUZjcWo2NHpPZFpsZU9jWmwtelJVYlNrbC1WeE9yMmh2cTBpdWJJWlFIVGVLdnVCTTBLTDZzbkRFMU1KZU1Kc2k2R0FR?oc=5",
-      "fonte": "Panrotas",
+      "titulo": "CasaPronta: sempre um destaque para Criciúma",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQlZmWUlNSDUtaHRjOWc2ZkJyand3UGc0Z1JKVkM2WlpwWHhGZjA3LUZxdWtOXzhYQV9RSFE0TWtNdWVjemlSNkZMUG53S3QxQXZaa1hwbnIxTS1OVFphbHc3QzAtQUNLcEUxaDV3Yy1keVV0bGtNQ2VVdW1YNHF0LVZxRUVXVUF2U1E?oc=5",
+      "fonte": "Portal Engeplus",
       "data": "19 out 2026",
       "sk": 20261019
     },
@@ -91,11 +83,11 @@
     },
     {
       "cat": "tendencias",
-      "titulo": "Casacor Ceará 2026 abre ao público com 35 ambientes, tendências de decoração e homenagens",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNcUhZc2N1dVA4R1ZEQUZ4RFBURDRwNE5qYWpMLTk4OFlKdGRJOXA2dllFeWNUVEotZnhOSGpTV0xSanlxSFZHR3VBQVI4blVZSU9XWFZfYVJDX3FoVzNFZ3l1bExraEZJeFBTZ0Z4MUVaeW1GUUVic0tFbG9IenZWZFN3SGo4eENJWVB4Q0FCb1lQSXItUHhVaGlpeGgzTFRiellNWGNPeUdLWDVWSTFJbVJpdHFTN2FpUkd2aTdUNDlzTWpyY1gzMTRyU2NmVDNsS2tyOHpmVWhlSE3SAeoBQVVfeXFMT2NMUTJEcnVtdWVqc2lPaEptZnNzLTQwZkUzX1lpZ3d4MkstVTJCVXRaZ0s2RnhsbFp0ZlljOE1DUzJ0T3VCYlR5ZHNYaVVGa2xFdEtwR3lKdm9WZndiZEE5MWdQNU5vVjNHbjZmMTdVZENaaTdNNWRoOFZUbGNfT2JfRkl0bWpPWXYtRHRsZ2dvdDJ3dFdsOE53YVpzWFpsMHAtS3VLdTN6STdXaklrNDJYQWFjVXcwRFIzaXIxSWhwU3o0UFAtQkI2SHp2WVY0eEI1SU9pUWQ4ODNCeUZiUTdWTlYzeU00UXZB?oc=5",
-      "fonte": "G1",
-      "data": "15 out 2026",
-      "sk": 20261015
+      "titulo": "Evento internacional seleciona projetos de alunos de moda, teatro, dança e arquitetura; veja como se inscrever",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZzd2Wld5RnpDNmFxRHM3aEg2NzItUE1kQlcxc2R3Q0JuVng3VUI5Q0ZXNjdjVW9RekRXLXY3bnhxeEJWY2trOVdZOE1UY0hPVlJVSjNJTU9uN2pTblZhNk9PR1VFWFVwVWtXbFFCemR6SnA2U184Mk9vSzE0MkRlMmttYmNjZExkOUNtcFdoa3YzRGZJd2kwMTV2Um15QWlqcDBtc1FiZkVtaUJVTmRjeExmalNrN0JTMkhVU1prS0NULVJKU1Fsa1B1bzM3VmE2Nk5ydUZ4b2ctd3JrcVBBd2NSTWdmd252WU5WUWVQRmhlekpNZVJ1TElKT25Jd9IBjAJBVV95cUxNcTBHdldvd2tkSEJHeWtuMENwZkM1MGxJMGUwSXM1Xy1fekhkS2o3bm1lOUVReWNQb25OWUlPY3ZPTlRQZXFlNFR3YXU0dlAzYnNuem5JNkdUemd5T2kybzd6NGN6ZmhETGFVLVo0U2JBLVpadnRSMXlHc1Ywak91eV9BT3RlLW1zbkFzVDg3clZ4OWxtLXhLY3FDd043UFcxYVU3YWtqZkJMSGZiWjlmc0Rjd3RGZlJmdXJhTmdmWTlUTGk0U05GeFZldUNKWllBMm01aEtwcl85RWlZNFdfZ3hFYUhZTmhCaWpfYmVNT2tseVh0d0FqSzhVcy04OFFWTEJVSXZQZ2kxM3FJ?oc=5",
+      "fonte": "Extra online",
+      "data": "16 out 2026",
+      "sk": 20261016
     },
     {
       "cat": "premios",
@@ -138,12 +130,20 @@
       "sk": 20261002
     },
     {
-      "cat": "profissao",
-      "titulo": "Conteúdo CAU/BR: Conselho em transformação",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOW11MjZaQXVZZW94M2k1NVBjNC14QzhBSkRBZjRTd3FnbVZjcW9RM0xBM0NPQjlFTEZOdjhVWFR2eFlQZDFFckVFcUVrVWtWbFFhNVFpQkp0TWU5M05aWFdmUmtwSG4tdzdKT2FPZDV2a1lQaGgzTmwzQVU2WG9pQ19samE1dw?oc=5",
-      "fonte": "Revista PROJETO",
-      "data": "1 out 2026",
-      "sk": 20261001
+      "cat": "premios",
+      "titulo": "Prêmio “Gentileza Urbana” é lançado em Curitiba em evento com arquitetos",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVmNzQ1Bqd0hIM0RLaWwwYzRBNF9ZZ2FESXVUVmRQcWNSQ0RWbGZtZHZ4YWYtWUtUSnZVdkcyb0hkVENpLXZ6LUJiek1HeEpHR2NvNFZTT2dPbXE5MnpkX3JuaFRlbGJxdE5ORS1KS1NNb2l5bXFEQlgxTjJKUE44Z2Q1ZzBlelpROU92d0Yzc2xjbEJMZGtpeDZvaC0xNHpHSEczYlQ5Mm1WdUpKWEhtYlhzMWZGZlnSAbwBQVVfeXFMTnpGajdtLXo0VTdKeTZlb0p2Qm1BTFJ2ZWFPNGFQZWx4dkg2em1lVDVzejRSeHU1MlB4VFpvYXA3c2pwdlpNXy1YMHNpMW9uc0lfNzRSb0taRi05djE0RXpNNXVfYjh2SXNfVldNUVQ3STdRbmlfSWZ4YjVKYmVjLVk5dDVrbkpBS294dW5IaGRGVHFTMzRkVUdTcnZzUHhHR0I0elo3RXloQXluVzRpbTVuajk5TUtTWktXdWs?oc=5",
+      "fonte": "Bem Paraná",
+      "data": "2 out 2026",
+      "sk": 20261002
+    },
+    {
+      "cat": "eventos",
+      "titulo": "CasaCor Brasília: mostra de design e arquitetura vai até 12 de outubro na Casa do Candango",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPTUtPR0phMjJ6S0pQdFZ5TW9IOGVaTjdGR2lsYVZuVERHQkxwQmxQQW5JbjFMbVVJV2hDRFhYSk5jWmRKdmZ4MG9EZHZVcFZDc1d0MWZUOTZJMEtfbW1PWVB4ZVZ5U0M1SUxZLVppWjBlTm9DUmhfbHp3MDRmLWNmVkZBd3dNWXV2UVJ4N2pfTnVoUjBOeEZEOFVWVndFT0FvdVRIUFllelg5bkJwUmZRWU4zOEJZQzl3SW1HVTRQRjZBQnJfZTQ2MndoLWFTNlJxSHVNUTQ1TWlXb3R1ZWJNa0tPRnBhV3U0NEVTQUFXVmd1bWpHdHBGX1R2cHZOUE5BN1JQVVJsVkN6U0dTa0YyemhiTXlDd9IBpAJBVV95cUxQZnZmTnJlNDNrYmQ3a3kyZFZfR05lWmpBNV9SZW9JMEtGb0VKWlUyYmFuQWhVLW42MUI1a201WkpYUUxsa3VJRG5FS1BKN3JKZ3NLdS01OUR1M05WV3BhTzFCQ292OE5UcWoyUG1kcEFhUzdxR1p0UFhQQ0E0WWVuR3NLeVZOZERZWm0yQ2FXT1dRNUVuNW9vVElvUDVwNzlTd2dZa205ZzZsdkJwbm9FeWY4bzhVRGx0Y0ZGVVVqd1RabHcyRV8tMGE1X1RSb0ZfZjdPRXR6YTZDS1RhOEo4NDd4VE9sd05ZMzRTSGo0QjI3b2NDUTJ6UjRiWHBOdG5yTlhIUHFyYkM2NWNNclF5R2xWQjROanZpZVBYY045aWxqQ0lm?oc=5",
+      "fonte": "G1",
+      "data": "28 set 2026",
+      "sk": 20260928
     },
     {
       "cat": "eventos",
@@ -154,10 +154,10 @@
       "sk": 20260926
     },
     {
-      "cat": "eventos",
-      "titulo": "CASACOR SC Florianópolis 2026 revela detalhes dos ambientes antes da abertura",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd1VsaFk1V181ek9FSzQ2c0E3aTNkQWpfeTRMWXFVSXI4cWNWeThJdjROZlJBY0hQbnpqVWFKbHpsM2YyOHg1UEFSaTNVM3VLaE9GWU9tazd4T00zN2tZMl9wS194MDRKZHdLZFVQZXFRZGxuUndtelNsYUhuMDFkMzRTYUNvM2MycTMyM2lXWlIzYTAwOHFlOHZURDFyY2xFdTBXd2Y3cDM3cnJ2anRZTkdLS08zN0w5?oc=5",
-      "fonte": "Acontecendo Aqui",
+      "cat": "profissao",
+      "titulo": "Concurso Arquitetura Indígena e Amazônia Legal tem cronograma atualizado",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYVdua2ZRZEROeFRtd0k4LWdmME5seGMzNDFGRVZHWE5NMXowbWJSMk9jdDVjd3RpX1lfdWl2N0NiemtmTHptYmliNWg4cHBOZlM0OVhiM0tIbzhNdlVfMnNyNEZfTWljdXVWZFhxd19PQWpuamNybzFnR2ZrWmNISzdyeVJxbHAwMWlOWDUwMTJ6RFA3MTBncG9B?oc=5",
+      "fonte": "Conselho de Arquitetura e Urbanismo",
       "data": "24 set 2026",
       "sk": 20260924
     }
