@@ -1,5 +1,5 @@
 // Robô do Radar da Arquitetura — lê o Google Notícias (RSS público) e gera news.json.
-// Resumo de cada manchete é opcional, via Google Gemini (chave GEMINI_API_KEY).
+// Resumo de cada notícia via Google Gemini, a partir da descrição da própria matéria.
 // Roda no GitHub Actions (Node 20+, fetch nativo). Sem dependências externas.
 import { writeFileSync } from 'node:fs';
 
@@ -21,12 +21,30 @@ const PER_CAT   = 5;       // máximo por tema no resultado final
 const MIN_TOTAL = 4;       // abaixo disso, não sobrescreve (mantém o último bom)
 const MESES = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
 
-// IA opcional (Google Gemini) para gerar um resumo curto de cada manchete.
-// Sem a chave GEMINI_API_KEY, o robô simplesmente não gera resumos.
+// IA (Google Gemini). Sem GEMINI_API_KEY, o robô segue sem resumos.
 const GEMINI_KEY = process.env.GEMINI_API_KEY || '';
-const GEMINI_MODEL_OVERRIDE = process.env.GEMINI_MODEL || ''; // opcional: forçar um modelo específico
+const GEMINI_MODEL_OVERRIDE = process.env.GEMINI_MODEL || '';
+const UA = 'Mozilla/5.0 (compatible; RadarArquitetura/1.0; +https://news)';
 
-// Descobre um modelo "flash" disponível na chave (evita quebrar quando os nomes mudam).
+function decode(s){
+  return String(s)
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+    .replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"')
+    .replace(/&#39;/g,"'").replace(/&apos;/g,"'").replace(/&nbsp;/g,' ')
+    .replace(/&#(\d+);/g, (_,n)=>String.fromCharCode(+n))
+    .replace(/&amp;/g,'&');
+}
+function stripTags(s){ return String(s).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim(); }
+function pick(block, name){
+  const m = block.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`, 'i'));
+  return m ? m[1] : '';
+}
+function normKey(t){
+  return t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim().slice(0,70);
+}
+
+// --- Descoberta do modelo e leitura da matéria ---------------------------------
 async function pickModel(){
   if(GEMINI_MODEL_OVERRIDE) return GEMINI_MODEL_OVERRIDE;
   try{
@@ -35,23 +53,64 @@ async function pickModel(){
     const d = await r.json();
     const models = (d.models || []).filter(m => (m.supportedGenerationMethods || []).includes('generateContent'));
     const flash = models.find(m => /flash/i.test(m.name) && !/(thinking|exp|preview|lite|vision)/i.test(m.name))
-               || models.find(m => /flash/i.test(m.name))
-               || models[0];
+               || models.find(m => /flash/i.test(m.name)) || models[0];
     return flash ? flash.name.replace(/^models\//,'') : 'gemini-2.5-flash';
   }catch(e){ return 'gemini-2.5-flash'; }
+}
+
+function metaDesc(html){
+  const grab = re => { const m = html.match(re); return m ? decode(m[1]).trim() : ''; };
+  return grab(/<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)["']/i)
+      || grab(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:description["']/i)
+      || grab(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["']/i)
+      || grab(/<meta[^>]+content=["']([^"']+)["'][^>]+name=["']description["']/i)
+      || '';
+}
+function realUrl(html){
+  const m = html.match(/<meta[^>]+property=["']og:url["'][^>]+content=["']([^"']+)["']/i)
+         || html.match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i);
+  return m ? m[1] : '';
+}
+async function getHtml(url){
+  const ctrl = new AbortController();
+  const t = setTimeout(()=>ctrl.abort(), 9000);
+  try{
+    const res = await fetch(url, { redirect:'follow', signal: ctrl.signal, headers: { 'User-Agent': UA } });
+    if(!res.ok) return '';
+    return await res.text();
+  }catch(e){ return ''; }
+  finally{ clearTimeout(t); }
+}
+// Tenta obter um trecho/descrição real da matéria (lida com o redirecionamento do Google Notícias).
+async function fetchContext(url){
+  let html = await getHtml(url);
+  if(!html) return '';
+  let desc = metaDesc(html);
+  if(desc && desc.length >= 40) return desc.slice(0, 400);
+  const real = realUrl(html);
+  if(real && /^https?:/.test(real) && !/news\.google\./.test(real)){
+    const html2 = await getHtml(real);
+    if(html2){ const d2 = metaDesc(html2); if(d2) return d2.slice(0, 400); }
+  }
+  return desc ? desc.slice(0, 400) : '';
 }
 
 async function addResumos(items){
   if(!GEMINI_KEY || !items.length){ console.log('Sem chave de IA — seguindo sem resumos.'); return; }
   const model = await pickModel();
-  const lista = items.map((it,i)=>`${i+1}. "${it.titulo}" (fonte: ${it.fonte})`).join('\n');
-  const prompt = `Você recebe manchetes de notícias de arquitetura no Brasil. Para cada uma, escreva UMA frase curta (no máximo 25 palavras), em português, neutra e informativa, que contextualize a manchete. Use SOMENTE o que está no título — não invente fatos, números, nomes ou datas que não apareçam nele. Responda APENAS com um array JSON de strings, na mesma ordem das manchetes, sem comentários e sem texto fora do array.\n\nManchetes:\n${lista}`;
+  const contextos = await Promise.all(items.map(it => fetchContext(it.url)));
+  console.log(`Contexto obtido de ${contextos.filter(Boolean).length}/${items.length} matérias.`);
+  const lista = items.map((it,i)=>{
+    const c = contextos[i] ? `\n   Descrição: ${contextos[i]}` : '';
+    return `${i+1}. Título: "${it.titulo}" (fonte: ${it.fonte})${c}`;
+  }).join('\n');
+  const prompt = `Você recebe notícias de arquitetura no Brasil, cada uma com o título e, quando disponível, uma descrição da matéria. Para cada notícia, escreva um resumo de 1 a 2 frases em português, informativo e neutro, baseado na descrição (reescrevendo com suas próprias palavras, sem copiar literalmente) e no título. Quando houver descrição, traga a informação dela — não repita apenas o título. Não invente fatos, números, nomes ou datas que não estejam no material. Responda APENAS com um array JSON de strings, na mesma ordem das notícias, sem comentários e sem texto fora do array.\n\nNotícias:\n${lista}`;
   try{
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_KEY}`;
     const res = await fetch(url, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.3 } }),
+      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.4 } }),
     });
     if(!res.ok){ console.error(`IA indisponível (modelo ${model}, status ${res.status}) — seguindo sem resumos.`); return; }
     const data = await res.json();
@@ -66,25 +125,10 @@ async function addResumos(items){
   }catch(e){ console.error('Falha ao gerar resumos: ' + e.message + ' — seguindo sem resumos.'); }
 }
 
+// --- Coleta das notícias --------------------------------------------------------
 function gnUrl(q){
   const query = encodeURIComponent(`${q} ${WHEN}`);
   return `https://news.google.com/rss/search?q=${query}&hl=pt-BR&gl=BR&ceid=BR:pt-150`;
-}
-function decode(s){
-  return String(s)
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"')
-    .replace(/&#39;/g,"'").replace(/&apos;/g,"'").replace(/&nbsp;/g,' ')
-    .replace(/&amp;/g,'&');
-}
-function stripTags(s){ return String(s).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim(); }
-function pick(block, name){
-  const m = block.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`, 'i'));
-  return m ? m[1] : '';
-}
-function normKey(t){
-  return t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')
-    .replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim().slice(0,70);
 }
 
 export function parseItems(xml, limit = PER_QUERY){
@@ -114,7 +158,7 @@ export function parseItems(xml, limit = PER_QUERY){
 }
 
 async function fetchFeed(url){
-  const res = await fetch(url, { headers: { 'User-Agent': 'RadarArquitetura/1.0' } });
+  const res = await fetch(url, { headers: { 'User-Agent': UA } });
   if(!res.ok) throw new Error('status '+res.status);
   return parseItems(await res.text());
 }
