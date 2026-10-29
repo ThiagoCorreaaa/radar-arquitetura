@@ -22,6 +22,8 @@ jobs:
 
       - name: Gerar news.json
         run: node scripts/build-news.mjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Publicar se houve mudança
         run: |
@@ -34,4 +36,3 @@ jobs:
             git commit -m "Atualiza notícias ($(date -u +%Y-%m-%d))"
             git push
           fi
-          
