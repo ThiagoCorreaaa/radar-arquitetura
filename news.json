@@ -1,14 +1,23 @@
 {
-  "updatedLabel": "31 de outubro de 2026",
+  "updatedLabel": "01 de novembro de 2026",
   "items": [
     {
       "cat": "premios",
       "titulo": "Arquiteto formado pela UFAL Arapiraca vence prêmio internacional de arquitetura paisagista",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZExqQ01MUFRVeDZuSm1HS3htVnFwNWQyVnN0UWNRMk9taGRFX3hLTFg5c2JqX3p6dzhpVVdZT0x0dXF4OWJDTldSd1lDS250MzMtb094SDk5c1l0dDJHWE5ta0FoZnBDcXhuTnZoS0pxX0otd09zM2hzS3ZKcEFibFg2V0FfNlhfQmNGdUhiSUFWbGpjV19jN0pDWFFkS1owZHEzUEtZSzg4b3IteDFJSkZQTkVZak9Cc3I0VjdUZGZMSnpVWGFmZlZIZXY3Y1VVZ191S0lR?oc=5",
-      "fonte": "Cadaminuto",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNmtVdG45TkVMelNnanYyYXJCZ3pWYmRlTVlKdmFfbXBrMm9uQXdPM19vQWVsTG9rTy1oMUswRHIzOWFYTHV4RHEteXVGemNUbXJveVNpdUZWSEpaMnkxX3lKLVVSZEZqOTUtUjBWVjZnd29tY0wydExDbndkdktQWnUzNDZCRTY0TmdKYV8yZFJmRm5NelNlT1Z6RS1DU2ZFWkphVzhHdnVERXRaNEdmTzRkSF81X0hiUndr?oc=5",
+      "fonte": "Alagoas Notícia Boa",
+      "data": "1 nov 2026",
+      "sk": 20261101,
+      "resumo": "Um arquiteto formado pela UFAL Arapiraca foi premiado em um concurso internacional de arquitetura paisagista."
+    },
+    {
+      "cat": "tendencias",
+      "titulo": "Padrões em MDF da Placas do Brasil ampliam possibilidades na arquitetura, decoração e design",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWEJ0TmNFQ2tJMjFRaS1sZVNrS2szZlF0cUlfU3ZsQ2Y4NldaVGFBQklVM0hmLUV5ZlZwQkEzWFA5cEd3bEJ3UklFVGpTVUROdXVXZS12aUF3Zk11YlZtZEV3RHJMVHNmNVhXbjNMNUlCT0tTMWwxSXNKVTZJWUtOUjlWLUFFV0VvTmtVSHdpUWlfcGxQbkpGX0VaQnNsWUpBdjNPUUlneU8xTzlXT2pBWFZsTkZXUWxXZVNsTDVNUFQ1UktSNTAwVEp0WVhqSWFZNDU4bXpn?oc=5",
+      "fonte": "Portal Revista Kdea 360",
       "data": "30 out 2026",
       "sk": 20261030,
-      "resumo": "Um arquiteto graduado pela UFAL Arapiraca foi premiado em uma competição internacional de arquitetura paisagista."
+      "resumo": "A Placas do Brasil está expandindo as opções de uso de seus padrões em MDF, oferecendo novas possibilidades para projetos de arquitetura, decoração e design."
     },
     {
       "cat": "premios",
@@ -17,16 +26,7 @@
       "fonte": "Agência de Notícias da Indústria",
       "data": "29 out 2026",
       "sk": 20261029,
-      "resumo": "O SESI Lab sediará diversas atividades relacionadas à XIV Bienal Ibero-Americana de Arquitetura e Urbanismo."
-    },
-    {
-      "cat": "profissao",
-      "titulo": "Eleição do CAU: arquitetos do ES votam on-line no dia 5",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rSFkyME9yNlBkZlBwS2Z2alhBTm92UTdNbmdJSHB2YUU1Mk9WZm95TzI1YUlyOGxfNS1pQTZ0MHV5blFwSGdqaWhWLWpvLTRpTWlNOW45bU1Gbi1FOHNZd0RBaEF1RUFnS2QxNGwwZkFqQVk?oc=5",
-      "fonte": "ES Brasil",
-      "data": "28 out 2026",
-      "sk": 20261028,
-      "resumo": "Os arquitetos do Espírito Santo participarão de uma eleição online para o CAU no dia 5."
+      "resumo": "O SESI Lab será o local de diversas atividades relacionadas à XIV Bienal Ibero-Americana de Arquitetura e Urbanismo."
     },
     {
       "cat": "tendencias",
@@ -35,7 +35,16 @@
       "fonte": "issoebrasil.com.br",
       "data": "27 out 2026",
       "sk": 20261027,
-      "resumo": "A Greenplac promoveu um debate sobre as tendências do morar com profissionais da área na cidade de Ribeirão Preto."
+      "resumo": "A Greenplac promoveu um evento em Ribeirão Preto para discutir as atuais tendências do morar com profissionais da área."
+    },
+    {
+      "cat": "profissao",
+      "titulo": "CAU/BR lança pesquisa sobre atividades ainda não disponíveis para RRT",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcEI2R2JCQmVkVy00OXNaLVZRZkdEeURsNGVBalJzb2Z4M3lHS0c3MEl0a01KdnhMc2FneERRNGhLZVhsQjR2VnpZTFNtQXJuRnE4aEVFT3BjNUp2ODRBYWhwNDg5dUFqR0hONGt3S3VzTE5hbk45c1MwWms5WnhXLTVybDVhQzRJT2hEOFpkZ1laVHZsckE?oc=5",
+      "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
+      "data": "26 out 2026",
+      "sk": 20261026,
+      "resumo": "O Conselho de Arquitetura e Urbanismo do Brasil (CAU/BR) lançou uma pesquisa focada em atividades que ainda não possuem Registro de Responsabilidade Técnica (RRT)."
     },
     {
       "cat": "tendencias",
@@ -44,7 +53,16 @@
       "fonte": "Forbes Brasil",
       "data": "25 out 2026",
       "sk": 20261025,
-      "resumo": "Um novo relatório focado no setor de cozinhas divulgou as cinco principais tendências relacionadas ao bem-estar."
+      "resumo": "Um novo relatório sobre o setor de cozinhas foi divulgado, apresentando as cinco tendências mais importantes relacionadas ao bem-estar neste ambiente."
+    },
+    {
+      "cat": "profissao",
+      "titulo": "CAU/BR lança plataforma Contrate um Arquiteto para cadastrar profissionais",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXJ6a2dEN0pBSURjY0U3MzdNSTVFazV6cDVteFZEaVFMaXlVekFTRU1Uc0l1TklGdWJ0NlJkNDhxSFkybDVna0RtLUQwSWVQeGxqNUhCVXhPQV9Tc2dXeGpSUkhzMTBsT1ZPVm5MU3NNSkhYRFVCWmtiMEhkNnVUZFROTkxsSmo4UmotSlZoRHBJU1lpdDhRWjJLYjg?oc=5",
+      "fonte": "Conselho de Arquitetura e Urbanismo",
+      "data": "23 out 2026",
+      "sk": 20261023,
+      "resumo": "O Conselho de Arquitetura e Urbanismo (CAU/BR) lançou a plataforma \"Contrate um Arquiteto\", destinada ao cadastro de profissionais da área."
     },
     {
       "cat": "profissao",
@@ -66,30 +84,30 @@
     },
     {
       "cat": "tendencias",
-      "titulo": "Fuja do óbvio em São Paulo com arquitetura, moda e música",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0FPcUpGMFI3UlZaQWhZTThodmlxM0FQbHpMbFNPdklDdFZWSkFhZ2drdW9oeG9xbVRyZmstbnBZWVZIdUhsOVNEMk9UYVVxYWFmQnVoMUZjcWo2NHpPZFpsZU9jWmwtelJVYlNrbC1WeE9yMmh2cTBpdWJJWlFIVGVLdnVCTTBLTDZzbkRFMU1KZU1Kc2k2R0FR?oc=5",
-      "fonte": "Panrotas",
-      "data": "19 out 2026",
-      "sk": 20261019,
-      "resumo": "A matéria sugere explorar São Paulo através de experiências diferenciadas que combinam arquitetura, moda e música."
-    },
-    {
-      "cat": "tendencias",
       "titulo": "Decoração: como escolher tendências que não saem de moda",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLXpENzFhNWVKbGc3dE5wY0JBZGxwUUtoaWJIOENoSmtKMC0xRGk0dXV3aXNTNzFQQzl2aEtNZTdlaml2cG95MFhJVE1oQ25GRUZ0ZXN0VVJ4NzlHdWhXMl9pVER1ZlRFenlYLW5MQ0o2V0EzTjRRVnF1WjdtTk1UVjQ2RFdwV2xtaVYtNHJ3ZVMxTFlwbU9YckthaEdHN3l6QmxjMTU5VW9uU01xUnBadXJweVFUZHFVSXc?oc=5",
       "fonte": "Correio do Povo",
       "data": "19 out 2026",
       "sk": 20261019,
-      "resumo": "O artigo oferece dicas sobre como selecionar tendências de decoração que se mantêm relevantes ao longo do tempo."
+      "resumo": "A matéria aborda dicas sobre como selecionar tendências de decoração que se mantêm relevantes ao longo do tempo."
     },
     {
       "cat": "tendencias",
-      "titulo": "Evento internacional seleciona projetos de alunos de moda, teatro, dança e arquitetura; veja como se inscrever",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZzd2Wld5RnpDNmFxRHM3aEg2NzItUE1kQlcxc2R3Q0JuVng3VUI5Q0ZXNjdjVW9RekRXLXY3bnhxeEJWY2trOVdZOE1UY0hPVlJVSjNJTU9uN2pTblZhNk9PR1VFWFVwVWtXbFFCemR6SnA2U184Mk9vSzE0MkRlMmttYmNjZExkOUNtcFdoa3YzRGZJd2kwMTV2Um15QWlqcDBtc1FiZkVtaUJVTmRjeExmalNrN0JTMkhVU1prS0NULVJKU1Fsa1B1bzM3VmE2Nk5ydUZ4b2ctd3JrcVBBd2NSTWdmd252WU5WUWVQRmhlekpNZVJ1TElKT25Jd9IBjAJBVV95cUxNcTBHdldvd2tkSEJHeWtuMENwZkM1MGxJMGUwSXM1Xy1fekhkS2o3bm1lOUVReWNQb25OWUlPY3ZPTlRQZXFlNFR3YXU0dlAzYnNuem5JNkdUemd5T2kybzd6NGN6ZmhETGFVLVo0U2JBLVpadnRSMXlHc1Ywak91eV9BT3RlLW1zbkFzVDg3clZ4OWxtLXhLY3FDd043UFcxYVU3YWtqZkJMSGZiWjlmc0Rjd3RGZlJmdXJhTmdmWTlUTGk0U05GeFZldUNKWllBMm01aEtwcl85RWlZNFdfZ3hFYUhZTmhCaWpfYmVNT2tseVh0d0FqSzhVcy04OFFWTEJVSXZQZ2kxM3FJ?oc=5",
-      "fonte": "Extra online",
-      "data": "16 out 2026",
-      "sk": 20261016,
-      "resumo": "Um evento internacional está selecionando projetos de estudantes das áreas de moda, teatro, dança e arquitetura, e a notícia informa sobre o processo de inscrição."
+      "titulo": "Neuroarquitetura orienta novas tendências para projetos de arquitetura e ambientes corporativos",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdEJuZ2hIRjZUZWVGMHBsYmlLaFNKVENnbzJtWWFxa1k5T3RxY2dmcVlGMjJYU2pJUnprUk84U0wyWm9wMHNHVjB4TVR0UjJaNklXNWJMVlNBZFhqTWwydlVacE8zZjRIN0wxWkItVTF5dEk5WHVyRDJjN3ZGMG1SZWo0U3hwaldoMFh5eHNmelFCREVHdGZXSW1qUzlGSjBjLVNGd1FWdkdza2JONG1NckI5YVlteXlVNFRtaFdKQWR5U0Vsc2c?oc=5",
+      "fonte": "Jornal O Florense",
+      "data": "18 out 2026",
+      "sk": 20261018,
+      "resumo": "A neuroarquitetura está influenciando as novas tendências em projetos de arquitetura, especialmente para ambientes corporativos."
+    },
+    {
+      "cat": "profissao",
+      "titulo": "Revista Projeto destaca concurso de arquitetura indígena do CAU/BR",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZXlhNmZfMllSUHRpLXYxUURqNzhFbXl5R0lJdE55eWp0V0hEWDM1d3JDZFA5N28zZmdEZWFpOW5PUjhNVFdoR3FtMlFoU01FbW54MUxTR250QmlZa0pzOWFxZk5TUkdCRTBGdEdYWGJ1eXpBSDBHTmpQU2c2cVc0elluWnduYlNLc0NTb2RYdGUwZw?oc=5",
+      "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
+      "data": "14 out 2026",
+      "sk": 20261014,
+      "resumo": "A Revista Projeto deu destaque a um concurso de arquitetura indígena promovido pelo Conselho de Arquitetura e Urbanismo do Brasil (CAU/BR)."
     },
     {
       "cat": "premios",
@@ -107,7 +125,7 @@
       "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
       "data": "8 out 2026",
       "sk": 20261008,
-      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) está envolvida em um projeto da ICM que aborda o trabalho decente nas Rotas de Integração Sul-Americana."
+      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) está envolvida em um projeto da ICM que visa promover o trabalho decente nas Rotas de Integração Sul-Americana."
     },
     {
       "cat": "eventos",
@@ -116,7 +134,7 @@
       "fonte": "Revista PROJETO",
       "data": "7 out 2026",
       "sk": 20261007,
-      "resumo": "A Revista PROJETO destaca o 22º Congresso Brasileiro de Arquitetos (CBA)."
+      "resumo": "A Revista PROJETO apresenta informações sobre o 22º CBA."
     },
     {
       "cat": "premios",
@@ -128,49 +146,31 @@
       "resumo": "O Prêmio Trajetória da XIV Bienal Ibero-Americana de Arquitetura e Urbanismo (BIAU) foi oficialmente anunciado."
     },
     {
-      "cat": "profissao",
-      "titulo": "FNA apoia carta “Arquitetura com Lula” em defesa de políticas para cidades e territórios",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc0wtdm52MTBvWjd4RW9vbExuUXl1bzI5R3JXSTJoRXNnbktzc3JjcWpNZWR3cU5zdWd6YXNMcFk1cUpXMmE2RE1iMGlMT2swYTltbnQxOU91UmZGZjZvNDZMNTVoY0VfV1M0NGg2RUM3OHhKekpmMW9vY0hiWGFaY0Z6Y0Nad2Z0THl4QlkzNTJiWHQyTWtxUEI0cGJPZDdZa3ZiNXp6NjFLdw?oc=5",
-      "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
-      "data": "2 out 2026",
-      "sk": 20261002,
-      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) manifestou apoio à carta \"Arquitetura com Lula\", que defende políticas para cidades e territórios."
-    },
-    {
       "cat": "eventos",
       "titulo": "CASACOR Rio: área de convivência gratuita tem café, floresta de bolso e lojas que traduzem o morar carioca",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlV3Rk81Rm5Wcl95UTI3a2lFODlXUVpEV3ktangtd0daTm1LZzRGakh4czk0VGpyTTY1SFU3VEllZTdhOW9pLWY4VTdmNkJCNldWLWYwM0xYdTkzajFPNmxnTElteFZzLVZINHQ3eVlUcnY0Z2ROZTkxVE13TVJRQkVabkhPUFBKejRjSUNhanJGZ0tSaE9hY2ZCNDRQeUltTUIzXzUzaWdmNi1fM3dJdkJGVmk?oc=5",
       "fonte": "Casa Cor",
       "data": "2 out 2026",
       "sk": 20261002,
-      "resumo": "A CASACOR Rio apresenta uma área de convivência gratuita que oferece café, uma floresta de bolso e lojas que refletem o estilo de vida carioca."
-    },
-    {
-      "cat": "profissao",
-      "titulo": "Conteúdo CAU/BR: Conselho em transformação",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOW11MjZaQXVZZW94M2k1NVBjNC14QzhBSkRBZjRTd3FnbVZjcW9RM0xBM0NPQjlFTEZOdjhVWFR2eFlQZDFFckVFcUVrVWtWbFFhNVFpQkp0TWU5M05aWFdmUmtwSG4tdzdKT2FPZDV2a1lQaGgzTmwzQVU2WG9pQ19samE1dw?oc=5",
-      "fonte": "Revista PROJETO",
-      "data": "1 out 2026",
-      "sk": 20261001,
-      "resumo": "O Conselho de Arquitetura e Urbanismo do Brasil (CAU/BR) está passando por um processo de transformação, conforme destacado em seu conteúdo."
+      "resumo": "A CASACOR Rio oferece uma área de convivência gratuita com café, uma floresta de bolso e lojas que refletem o estilo de morar carioca."
     },
     {
       "cat": "eventos",
-      "titulo": "CasaCor Brasília: mostra de design e arquitetura vai até 12 de outubro na Casa do Candango",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPTUtPR0phMjJ6S0pQdFZ5TW9IOGVaTjdGR2lsYVZuVERHQkxwQmxQQW5JbjFMbVVJV2hDRFhYSk5jWmRKdmZ4MG9EZHZVcFZDc1d0MWZUOTZJMEtfbW1PWVB4ZVZ5U0M1SUxZLVppWjBlTm9DUmhfbHp3MDRmLWNmVkZBd3dNWXV2UVJ4N2pfTnVoUjBOeEZEOFVWVndFT0FvdVRIUFllelg5bkJwUmZRWU4zOEJZQzl3SW1HVTRQRjZBQnJfZTQ2MndoLWFTNlJxSHVNUTQ1TWlXb3R1ZWJNa0tPRnBhV3U0NEVTQUFXVmd1bWpHdHBGX1R2cHZOUE5BN1JQVVJsVkN6U0dTa0YyemhiTXlDd9IBpAJBVV95cUxQZnZmTnJlNDNrYmQ3a3kyZFZfR05lWmpBNV9SZW9JMEtGb0VKWlUyYmFuQWhVLW42MUI1a201WkpYUUxsa3VJRG5FS1BKN3JKZ3NLdS01OUR1M05WV3BhTzFCQ292OE5UcWoyUG1kcEFhUzdxR1p0UFhQQ0E0WWVuR3NLeVZOZERZWm0yQ2FXT1dRNUVuNW9vVElvUDVwNzlTd2dZa205ZzZsdkJwbm9FeWY4bzhVRGx0Y0ZGVVVqd1RabHcyRV8tMGE1X1RSb0ZfZjdPRXR6YTZDS1RhOEo4NDd4VE9sd05ZMzRTSGo0QjI3b2NDUTJ6UjRiWHBOdG5yTlhIUHFyYkM2NWNNclF5R2xWQjROanZpZVBYY045aWxqQ0lm?oc=5",
-      "fonte": "G1",
-      "data": "28 set 2026",
-      "sk": 20260928,
-      "resumo": "A mostra de design e arquitetura CasaCor Brasília está em exibição na Casa do Candango e pode ser visitada até o dia 12 de outubro."
+      "titulo": "CASACOR Minas Gerais 2026 entra na reta final: o que ainda descobrir nos últimos dias da mostra",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOW9qUFZkX0tuNUtFakFyNDFobWF2alRWd1E5R0F6SmZKd24wUGhRRTQ1VWd6Q0JZUUMzVldzbHBPaWhaY29JLTBiQ1R1QkpHd0JTZFF4OERsQVg3TGJEOEhVcTJNeUZFb05odGxxcS1wSHpVekRXRUpVZWR6TERBNjdzQVdHZnJ1cG5faXIzdE5Kc3ZTWmEwa2VZdFg3dDhnX3J5R0ppVUdfODBmYm1UM25n?oc=5",
+      "fonte": "CASACOR São Paulo",
+      "data": "1 out 2026",
+      "sk": 20261001,
+      "resumo": "A edição de 2026 da CASACOR Minas Gerais está em seus últimos dias, convidando o público a explorar o que resta da mostra."
     },
     {
       "cat": "eventos",
       "titulo": "Florianópolis 2026: 27 projetos e 30 anos de história",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcDlfM1FWZFgyX2xubzZISmpOX1Uwb295a0tYOHFid01OTUZBYzJtcFRqSXo1Q3YxeHJrNHBobXgycjU2dG55cS1IQU1janVEdzhiYlFIclVmdDNMUnFjcy1qZFNTWkJHcTI4dzU1V1ZVODRYdzhjSXFiQjZ5XzFsdkhjTVBvMTZsbnFV?oc=5",
-      "fonte": "CASACOR São Paulo",
+      "fonte": "Casa Cor",
       "data": "26 set 2026",
       "sk": 20260926,
-      "resumo": "A notícia aborda \"Florianópolis 2026\", mencionando 27 projetos e 30 anos de história."
+      "resumo": "A edição de Florianópolis 2026 celebra 30 anos de história, apresentando 27 projetos."
     },
     {
       "cat": "eventos",
@@ -179,7 +179,7 @@
       "fonte": "Casa Cor",
       "data": "25 set 2026",
       "sk": 20260925,
-      "resumo": "A CASACOR Rio 2026 apresentará exposições que estabelecem conexões entre arte, design, arquitetura e memória, no Centro do Rio de Janeiro."
+      "resumo": "A CASACOR Rio 2026 apresenta diversas exposições que interligam arte, design, arquitetura e memória, localizadas no Centro do Rio."
     }
   ]
 }
