@@ -1,6 +1,15 @@
 {
-  "updatedLabel": "06 de novembro de 2026",
+  "updatedLabel": "07 de novembro de 2026",
   "items": [
+    {
+      "cat": "eventos",
+      "titulo": "Bienal de Arquitetura premia projeto que cuida de Brumadinho",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUXByblpFMUFKc3VkaTZzQXdQMERTVGs4cmlxRnJxeE1SdTBES1pGTm1kMUFmdzFWM1NQdEtmbXIyckZnMzZuMmlYS2c1anpFekZsWTNPdUV1R2k4akg3ZHo0bUVJdkZyc3lLQVluUUVUUTdLbHJSTlZTczlyNnpPU3lIZ2ltS1JPSUZOdnR3bGl2b1AxUlF5S082SFZjZzc1QUtYSnQ0MGgyaWUx?oc=5",
+      "fonte": "TV Sim Brasil",
+      "data": "7 nov 2026",
+      "sk": 20261107,
+      "resumo": "A Bienal de Arquitetura concedeu um prêmio a um projeto focado nos cuidados com a região de Brumadinho."
+    },
     {
       "cat": "premios",
       "titulo": "“Edifício-árvore” de SC é finalista de prêmio internacional",
@@ -8,7 +17,7 @@
       "fonte": "Gazeta do Povo",
       "data": "6 nov 2026",
       "sk": 20261106,
-      "resumo": "Um \"edifício-árvore\" localizado em Santa Catarina foi selecionado como finalista de um prêmio internacional."
+      "resumo": "Um \"edifício-árvore\" localizado em Santa Catarina foi selecionado como finalista em um prestigiado prêmio internacional."
     },
     {
       "cat": "eventos",
@@ -17,7 +26,7 @@
       "fonte": "Prensa Mercosur",
       "data": "5 nov 2026",
       "sk": 20261105,
-      "resumo": "Brasília sediará a XIV Bienal Ibero-Americana de Arquitetura e Urbanismo, que debaterá o futuro das cidades."
+      "resumo": "Brasília sediará a XIV Bienal Ibero-Americana de Arquitetura e Urbanismo, onde será debatido o futuro das cidades."
     },
     {
       "cat": "tendencias",
@@ -26,7 +35,7 @@
       "fonte": "ELLE Brasil",
       "data": "4 nov 2026",
       "sk": 20261104,
-      "resumo": "Os móveis conhecidos como \"marshmallow\" estão se destacando como uma nova tendência na decoração."
+      "resumo": "Os móveis com design \"marshmallow\" estão se destacando como uma tendência de decoração que merece atenção."
     },
     {
       "cat": "tendencias",
@@ -35,7 +44,7 @@
       "fonte": "MONDO MODA",
       "data": "3 nov 2026",
       "sk": 20261103,
-      "resumo": "As principais tendências de decoração para 2027 foram apresentadas durante o High Point Market."
+      "resumo": "As futuras tendências para a decoração em 2027 foram reveladas durante o evento High Point Market."
     },
     {
       "cat": "premios",
@@ -44,7 +53,7 @@
       "fonte": "Alagoas Notícia Boa",
       "data": "1 nov 2026",
       "sk": 20261101,
-      "resumo": "Um arquiteto formado pela UFAL Arapiraca conquistou um prêmio internacional na área de arquitetura paisagista."
+      "resumo": "Um arquiteto graduado pela UFAL Arapiraca conquistou um prêmio internacional na área de arquitetura paisagista."
     },
     {
       "cat": "tendencias",
@@ -53,7 +62,7 @@
       "fonte": "Forbes Brasil",
       "data": "25 out 2026",
       "sk": 20261025,
-      "resumo": "Um novo relatório do setor de cozinhas revelou as cinco principais tendências relacionadas ao bem-estar (wellness)."
+      "resumo": "Um novo relatório do setor de cozinhas divulgou as cinco principais tendências relacionadas ao bem-estar."
     },
     {
       "cat": "profissao",
@@ -62,7 +71,7 @@
       "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
       "data": "23 out 2026",
       "sk": 20261023,
-      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) defendeu o fortalecimento da assistência técnica à moradia em uma reunião com Geraldo Alckmin."
+      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) defendeu o fortalecimento da assistência técnica para moradias em uma reunião com Geraldo Alckmin."
     },
     {
       "cat": "premios",
@@ -80,16 +89,7 @@
       "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
       "data": "21 out 2026",
       "sk": 20261021,
-      "resumo": "A Prefeitura de Florianópolis (SC) está promovendo um evento para discutir o tema do retrofit sustentável."
-    },
-    {
-      "cat": "profissao",
-      "titulo": "CAU Digital permite emissão de RRT Simples sem acesso ao SICCAU",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMDgxQmM4NnNVLXhQYnpxY2NmcEZMS2RQS051RkZmRURmWWs5aVF6bTNRQ3NZN0kzZUQtREN0eUEtbFJpSVJ4Ti1TSU5KUDQxN1lSQTd5WTItd2piaHlCMWRwTkZXaGdmM29PTUpjZllUaW1UVU0yUm9pNzVaeTFGekdTNDJPQ19SQUJWUzhB?oc=5",
-      "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
-      "data": "21 out 2026",
-      "sk": 20261021,
-      "resumo": "O CAU Digital agora permite a emissão do Registro de Responsabilidade Técnica (RRT) Simples sem a necessidade de acessar o SICCAU."
+      "resumo": "Um evento organizado pela Prefeitura de Florianópolis, em Santa Catarina, abordará o tema do retrofit sustentável."
     },
     {
       "cat": "premios",
@@ -101,31 +101,31 @@
       "resumo": "Adélia Prado e Paulliny Tort foram anunciadas entre as vencedoras do Prêmio Biblioteca Nacional de 2026."
     },
     {
-      "cat": "profissao",
-      "titulo": "Selo Nacional de Fiscalização em obras do interior paulista começa a ser aplicado",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN2Y4N09MVVZzaC1Dcmp4eWtZM0VBUjA4UkNFUkhxZUxiYnJSNTBkM3dGazNUdEhtaW9SaDFybkNtcGJhVzJfRVF5cmRZejJoUXBNaWxKZkE3NUVFY0ZQU1ZSaGpvODdaa0RBVUZoSjZESlA2MEJkTWJ0ODhYTENVQVVqSkZwM1NxZGp1ZEVhT194Ni1lTGlHZjQ1YWFSLTRmV3B1aUhB?oc=5",
-      "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
-      "data": "20 out 2026",
-      "sk": 20261020,
-      "resumo": "O Selo Nacional de Fiscalização começou a ser aplicado em obras localizadas no interior do estado de São Paulo."
-    },
-    {
       "cat": "tendencias",
       "titulo": "Mostra convida público para conhecer tendências em Arquitetura e Decoração",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWU05YUJfRmY2bnZiY3cxWXUzVnQ5LXhfWFRsVVdPLXluWlZwcFRlX1hzeVhsdmd1NHpHZHpwcTlyUktBeTc1ODNpQWdDbFhGeDlsRXFBTmpYV3Nib0s0bkZzeGI4NXJORnlDV2JpWlVmV2RDaWdGakxqWnFYY3NxSlNWUjFkU2VXYW5KaWM5M1I0bjBxcURaekl2X0pvSlNrTWlF?oc=5",
       "fonte": "FaxAju",
       "data": "20 out 2026",
       "sk": 20261020,
-      "resumo": "Uma mostra está convidando o público a conhecer as tendências mais recentes em arquitetura e decoração."
+      "resumo": "Uma mostra está convidando o público a explorar as últimas tendências em arquitetura e decoração."
     },
     {
       "cat": "tendencias",
-      "titulo": "CasaPronta: sempre um destaque para Criciúma",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQlZmWUlNSDUtaHRjOWc2ZkJyand3UGc0Z1JKVkM2WlpwWHhGZjA3LUZxdWtOXzhYQV9RSFE0TWtNdWVjemlSNkZMUG53S3QxQXZaa1hwbnIxTS1OVFphbHc3QzAtQUNLcEUxaDV3Yy1keVV0bGtNQ2VVdW1YNHF0LVZxRUVXVUF2U1E?oc=5",
-      "fonte": "Portal Engeplus",
+      "titulo": "Fuja do óbvio em São Paulo com arquitetura, moda e música",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0FPcUpGMFI3UlZaQWhZTThodmlxM0FQbHpMbFNPdklDdFZWSkFhZ2drdW9oeG9xbVRyZmstbnBZWVZIdUhsOVNEMk9UYVVxYWFmQnVoMUZjcWo2NHpPZFpsZU9jWmwtelJVYlNrbC1WeE9yMmh2cTBpdWJJWlFIVGVLdnVCTTBLTDZzbkRFMU1KZU1Kc2k2R0FR?oc=5",
+      "fonte": "Panrotas",
       "data": "19 out 2026",
       "sk": 20261019,
-      "resumo": "A feira CasaPronta continua sendo um evento de grande destaque para a cidade de Criciúma."
+      "resumo": "Uma matéria sugere explorar aspectos menos convencionais de São Paulo através de sua arquitetura, moda e música."
+    },
+    {
+      "cat": "profissao",
+      "titulo": "Concurso de arquitetura indígena do CAU/BR premia seis trabalhos",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNVdVejVmU29oRFJyV0RnalV4U05JSGVldEg5QW93S1lEVExHS1JpWWxIcm5VTmxISTUySUJObjlMRHROdy00QUlFQnRmbEZEY3pBV2I5X1hUUjJ2c3BWN21zNXgySFRJOEhWQldSU1BpTnBmZ1NzZXBkOU9TaC04UGZsV1VmYlRFRlQxT01kOUtZZnB2MTZhVG4tYWg2NXZONVRIS0hXUQ?oc=5",
+      "fonte": "Revista PROJETO",
+      "data": "12 out 2026",
+      "sk": 20261012,
+      "resumo": "O concurso de arquitetura indígena promovido pelo CAU/BR premiou um total de seis trabalhos."
     },
     {
       "cat": "premios",
@@ -143,7 +143,7 @@
       "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
       "data": "8 out 2026",
       "sk": 20261008,
-      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) participa de um projeto da ICM sobre trabalho decente nas Rotas de Integração Sul-Americana."
+      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) está envolvida em um projeto da ICM que trata do trabalho decente nas Rotas de Integração Sul-Americana."
     },
     {
       "cat": "eventos",
@@ -152,7 +152,7 @@
       "fonte": "Revista PROJETO",
       "data": "7 out 2026",
       "sk": 20261007,
-      "resumo": "A Revista PROJETO destaca informações sobre o 22º Congresso Brasileiro de Arquitetos (CBA)."
+      "resumo": "A Revista PROJETO aborda o 22º CBA."
     },
     {
       "cat": "eventos",
@@ -161,7 +161,16 @@
       "fonte": "Casa Cor",
       "data": "5 out 2026",
       "sk": 20261005,
-      "resumo": "A CASACOR Ribeirão Preto 2026 está em seus últimos dias, oferecendo as últimas oportunidades para visitação."
+      "resumo": "A CASACOR Ribeirão Preto 2026 está em seus últimos dias, oferecendo oportunidades para descobrir novidades na mostra."
+    },
+    {
+      "cat": "profissao",
+      "titulo": "FNA apoia carta “Arquitetura com Lula” em defesa de políticas para cidades e territórios",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc0wtdm52MTBvWjd4RW9vbExuUXl1bzI5R3JXSTJoRXNnbktzc3JjcWpNZWR3cU5zdWd6YXNMcFk1cUpXMmE2RE1iMGlMT2swYTltbnQxOU91UmZGZjZvNDZMNTVoY0VfV1M0NGg2RUM3OHhKekpmMW9vY0hiWGFaY0Z6Y0Nad2Z0THl4QlkzNTJiWHQyTWtxUEI0cGJPZDdZa3ZiNXp6NjFLdw?oc=5",
+      "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
+      "data": "2 out 2026",
+      "sk": 20261002,
+      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) manifestou apoio à carta “Arquitetura com Lula”, que defende políticas para cidades e territórios."
     },
     {
       "cat": "eventos",
@@ -170,16 +179,7 @@
       "fonte": "Casa Cor",
       "data": "2 out 2026",
       "sk": 20261002,
-      "resumo": "A CASACOR Rio apresenta uma área de convivência gratuita que inclui café, uma floresta de bolso e lojas com o estilo de morar carioca."
-    },
-    {
-      "cat": "eventos",
-      "titulo": "Últimos dias CASACOR Rio Grande do Sul: um roteiro para visitar a mostra até 4 de outubro",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObEpYc0NLUkhRMFd6X0thdlJjRFl6ZUVvS0xjbk5TeEVuZHJITWFHR3dfZkp6NUs0Ym5POTBZMmI2UHhINE9od1RUNkZTS2xUSnUtYWI2Y3RDSk9sX19la1FDaWRnTi1pVDhwZE82MlNldjA4YlVkb1JBQ3pxXzZTLUtJLUpXLTdVd2M2VGpmZXJYNlJkdW1QdF9vN3ZIRnFja014aDk2NzFpcFd0?oc=5",
-      "fonte": "Casa Cor",
-      "data": "1 out 2026",
-      "sk": 20261001,
-      "resumo": "A CASACOR Rio Grande do Sul está em seus últimos dias, com um roteiro disponível para visitação até 4 de outubro."
+      "resumo": "A CASACOR Rio apresenta uma área de convivência gratuita que inclui café, uma floresta de bolso e lojas que refletem o estilo de vida carioca."
     }
   ]
 }
