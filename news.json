@@ -1,6 +1,24 @@
 {
-  "updatedLabel": "10 de novembro de 2026",
+  "updatedLabel": "11 de novembro de 2026",
   "items": [
+    {
+      "cat": "premios",
+      "titulo": "Prêmio Deca Reconhece A Trajetória Premiada Da Arquiteta Débora Aguiar Na Arquitetura Brasileira",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdkNRRDNndW11Y1gtOGJXRUZMR2ZITUpOaEtsMlpYQlhGWm9lSE9oY2FoU0t6VndWcDBQYkplLW1uZGFtRkdnUDFPQUE0NXZOazNySmVibGlUbnN3MVAyWF9sdWRNaHZlMElCTmR5VWhReTN6VXdrSDZFUzd2SFBzMVE0YzI4YTZqVWpNSGdnempLTUhRMkhKNVQtT1I1NG1FQXZuOXQwUVY3T3EwZlVfYkxnLV9yNG5hV3RtWG5Ham44ZVNfWkltbWpXQWlQT0wwN0dCemFn?oc=5",
+      "fonte": "Forbes Brasil",
+      "data": "11 nov 2026",
+      "sk": 20261111,
+      "resumo": "O Prêmio Deca homenageou a arquiteta Débora Aguiar, reconhecendo sua trajetória e os diversos prêmios que ela conquistou na arquitetura brasileira."
+    },
+    {
+      "cat": "profissao",
+      "titulo": "Edital CAU SC 2026 é publicado; iniciais de até R$ 12,3 mil!",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNUdnVF9UdTJEbU5zQUVYcVVKSlAxVmV2RjRsODl2b1g2bW9fdzl3QUg1Q3ZjeXMxcXFKRHdCSC1VN2p4OGpvQ1lWQ09McjZZMXBvelBROFJRXzFLZVdZM0RFSDlOTElfTlgwUTZiSUVVM1Y4ZkRYeExYYUhJRWlXVg?oc=5",
+      "fonte": "Blog Gran Cursos Online",
+      "data": "10 nov 2026",
+      "sk": 20261110,
+      "resumo": "O Conselho de Arquitetura e Urbanismo de Santa Catarina (CAU SC) publicou o edital para o ano de 2026, oferecendo salários iniciais que podem chegar a R$ 12,3 mil."
+    },
     {
       "cat": "premios",
       "titulo": "Conheça os vencedores do 11º Prêmio Saint-Gobain AsBEA de Arquitetura",
@@ -8,7 +26,7 @@
       "fonte": "Revista PROJETO",
       "data": "9 nov 2026",
       "sk": 20261109,
-      "resumo": "A notícia informa sobre os vencedores da 11ª edição do Prêmio Saint-Gobain AsBEA de Arquitetura."
+      "resumo": "Foram anunciados os vencedores da 11ª edição do Prêmio Saint-Gobain AsBEA de Arquitetura."
     },
     {
       "cat": "premios",
@@ -17,16 +35,16 @@
       "fonte": "bra1.com.br",
       "data": "9 nov 2026",
       "sk": 20261109,
-      "resumo": "Um arquiteto brasileiro foi reconhecido com um prêmio internacional em Paris."
+      "resumo": "Um arquiteto brasileiro conquistou um prêmio internacional em Paris, recebendo um reconhecimento significativo na área."
     },
     {
-      "cat": "eventos",
-      "titulo": "Bienal de Arquitetura premia projeto que mira vida pós-tragédia em Brumadinho",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOb2N1aWNCa2Vuc0k5dGxRLW5WN3FORUJPYWVrNFJMbzI5MUJzTG5PREtjdk9QVGxCQlNuMVNCOHRNZ1lQRU5zNDlqdFREZ1NKN0RqY21NVjcyMXhjV09mYS1RTmlGYzdVU3E4em5zQVJzNFdmbXFobDZyRVdrT1J2UGd1M3NSVmhjc1BQZE1aYXJXaVJ1MW43aldIbUtIWTBsd09nNHF5UjRDNm14S1ZNODdQVkJvUC1LRUI0UV9uWVlIVWwyOHVvVmM2Yw?oc=5",
-      "fonte": "Folha de S.Paulo",
-      "data": "7 nov 2026",
-      "sk": 20261107,
-      "resumo": "Um projeto focado na vida pós-tragédia em Brumadinho foi premiado na Bienal de Arquitetura."
+      "cat": "profissao",
+      "titulo": "Arquitetos e urbanistas elegem novos representantes para os plenários do CAU",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV2xvbmhyd3l6Z2JPUUN4SjlCeHFwN1NSQ0o1U0l4NHhZQTRhemZzVHc4amE2Ti1xZS1Lc1VzWkdLQ3BjWE54ZlY4d1RacDIwbUJndFFPV1RKdlgybzVVX1JiTkk3MW9vQS1kN2o0c3RFbUYtRG1jc1pnZ29zNE5EajNZblR2anNYT0NzV2JLQl81QklSQ0JCb1N1enc?oc=5",
+      "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
+      "data": "6 nov 2026",
+      "sk": 20261106,
+      "resumo": "Arquitetos e urbanistas participaram de eleições para escolher os novos representantes que integrarão os plenários do Conselho de Arquitetura e Urbanismo (CAU)."
     },
     {
       "cat": "premios",
@@ -35,7 +53,16 @@
       "fonte": "Gazeta do Povo",
       "data": "6 nov 2026",
       "sk": 20261106,
-      "resumo": "Um projeto arquitetônico de Santa Catarina, conhecido como “edifício-árvore”, alcançou a final de um prêmio internacional."
+      "resumo": "Um edifício em Santa Catarina, conhecido como 'edifício-árvore', foi selecionado como finalista em um prestigiado prêmio internacional."
+    },
+    {
+      "cat": "eventos",
+      "titulo": "Bienal de Arquitetura e Urbanismo começa nesta terça em Brasília; veja programação",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMzRTazdtcmw0UU44TlE5QUk3R1RkYXJFTENKUl90VXN4NW9lTEQwaHA4OFB1V1lFbXBzRnkzeTRMWlJ1M1VtSWlrbVNRMDJpVFQ1b0hUNEpCdVRadzZBQ2RxSDZvbjNUdTRtUVVYZ0J4M3d1ZGw4YXhMeGpnMGtxT2RmUWNsTTI3bnVHb0xTTThYcFZsbG1GRFhfVVh4UkhDd0NySHYwdkdhN3JQaFRVTmwwcGFGS0VkTkcyQjVDQ3pzX1ZWNVUtNTlnSzhkc0tqZThnMWtNT280a0FjODVlSdIB7wFBVV95cUxNaDVHWUw1X3ZVbzhMcC1yZnY1R3pKZjdtUzNCakNDVFMzU21lM1JKd2F1Wi02QUhHMnQza0FLNGkzeFh3SWtIVjR2UlJDeWJMNE50NlB6Q2IydWRFb1ZZdFNvOUJ1NWdZR2RtRjF1dVMwVmRINHF1d2FROW9qNlhzTjF6LTNiZkI5VnI4UWNRMk0ycGgyTzdreW0xLWRDZHVpVmNHTHU3aXh2VVRSX0RrRjZLbFpmSlNFNV95UllCcDVVVHpiZDgwVEdBWmpmS0ltZk5KWmxNNDFGNjV2Y25mN25SQWtNaDhwZ2RwbW9vMA?oc=5",
+      "fonte": "G1",
+      "data": "3 nov 2026",
+      "sk": 20261103,
+      "resumo": "A Bienal de Arquitetura e Urbanismo teve início nesta terça-feira em Brasília, e a programação completa do evento está disponível para consulta."
     },
     {
       "cat": "tendencias",
@@ -44,7 +71,7 @@
       "fonte": "MONDO MODA",
       "data": "3 nov 2026",
       "sk": 20261103,
-      "resumo": "O High Point Market revelou as principais tendências para a decoração no ano de 2027."
+      "resumo": "As principais tendências para a decoração de 2027 foram reveladas e apresentadas durante o High Point Market."
     },
     {
       "cat": "premios",
@@ -53,25 +80,7 @@
       "fonte": "Alagoas Notícia Boa",
       "data": "1 nov 2026",
       "sk": 20261101,
-      "resumo": "Um arquiteto graduado pela UFAL Arapiraca foi o vencedor de um prêmio internacional na área de arquitetura paisagista."
-    },
-    {
-      "cat": "premios",
-      "titulo": "Hotel Mirante da Ópera vence prêmio de arquitetura",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRlV5N3JGSG1hMTNtN1FkcGpBaEpMaG5qZ2ZfeDlTQmRoS0FneVZ4OC12QThFdjY4STF0WFFEdElDN1d6dUsxS3hYbmI1N0t2azhKdnBtcGpXOUw2R0hjUkViQmhFQVFadVVWTklPa0k4UjJFVmVWQkttYkVxQTlCWXJLNVZCalE?oc=5",
-      "fonte": "Revista Hotéis",
-      "data": "30 out 2026",
-      "sk": 20261030,
-      "resumo": "O Hotel Mirante da Ópera foi o ganhador de um prêmio na categoria de arquitetura."
-    },
-    {
-      "cat": "profissao",
-      "titulo": "Eleição do CAU: arquitetos do ES votam on-line no dia 5",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9rSFkyME9yNlBkZlBwS2Z2alhBTm92UTdNbmdJSHB2YUU1Mk9WZm95TzI1YUlyOGxfNS1pQTZ0MHV5blFwSGdqaWhWLWpvLTRpTWlNOW45bU1Gbi1FOHNZd0RBaEF1RUFnS2QxNGwwZkFqQVk?oc=5",
-      "fonte": "ES Brasil",
-      "data": "28 out 2026",
-      "sk": 20261028,
-      "resumo": "Os arquitetos do Espírito Santo participarão da eleição do CAU, com votação online marcada para o dia 5."
+      "resumo": "Um arquiteto graduado pela UFAL Arapiraca conquistou um prêmio internacional na categoria de arquitetura paisagista."
     },
     {
       "cat": "eventos",
@@ -80,7 +89,7 @@
       "fonte": "Casa Cor",
       "data": "26 out 2026",
       "sk": 20261026,
-      "resumo": "A CASACOR Rio 2026 destacará ambientes projetados para se transformar durante a exposição."
+      "resumo": "A CASACOR Rio 2026 está exibindo ambientes inovadores que se transformam e evoluem durante o período da mostra."
     },
     {
       "cat": "tendencias",
@@ -89,7 +98,7 @@
       "fonte": "Forbes Brasil",
       "data": "25 out 2026",
       "sk": 20261025,
-      "resumo": "Um novo relatório do setor de cozinhas aponta as cinco principais tendências relacionadas ao bem-estar (wellness)."
+      "resumo": "Um novo relatório focado no setor de cozinhas divulgou as cinco tendências mais importantes relacionadas ao bem-estar (wellness) neste segmento."
     },
     {
       "cat": "profissao",
@@ -98,16 +107,7 @@
       "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
       "data": "23 out 2026",
       "sk": 20261023,
-      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) defendeu o fortalecimento da assistência técnica para moradias em um encontro com Geraldo Alckmin."
-    },
-    {
-      "cat": "profissao",
-      "titulo": "Curso de atualização em Patrimônio Cultural chega a São Luis (MA) no dia 30/10",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNVNxU0lDdEhZMi04Y0wza29nMXFWNmJsM2lhcG5qcUFPX3pDeWlqdGR5bk44elpwRzdSdVhKNUR2ZldsYjNIYVJuTWF4c0RMMU1MR1hDMlppQk5MekUwekN0eW9iU3ozX2QwZm12cWU2S093eGV4bUpzd05ZSmRrMEdiTDhwWE83MkNTNlF6ZGpfbUxxS1NFbTJDazhld1U?oc=5",
-      "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
-      "data": "20 out 2026",
-      "sk": 20261020,
-      "resumo": "Um curso de atualização sobre Patrimônio Cultural será realizado em São Luís, Maranhão, no dia 30 de outubro."
+      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) defendeu o fortalecimento da assistência técnica para moradias em uma reunião com Geraldo Alckmin."
     },
     {
       "cat": "tendencias",
@@ -116,16 +116,7 @@
       "fonte": "FaxAju",
       "data": "20 out 2026",
       "sk": 20261020,
-      "resumo": "Uma mostra convida o público a explorar as novidades e tendências nos campos da arquitetura e decoração."
-    },
-    {
-      "cat": "tendencias",
-      "titulo": "CasaPronta: sempre um destaque para Criciúma",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQlZmWUlNSDUtaHRjOWc2ZkJyand3UGc0Z1JKVkM2WlpwWHhGZjA3LUZxdWtOXzhYQV9RSFE0TWtNdWVjemlSNkZMUG53S3QxQXZaa1hwbnIxTS1OVFphbHc3QzAtQUNLcEUxaDV3Yy1keVV0bGtNQ2VVdW1YNHF0LVZxRUVXVUF2U1E?oc=5",
-      "fonte": "Portal Engeplus",
-      "data": "19 out 2026",
-      "sk": 20261019,
-      "resumo": "O evento CasaPronta é consistentemente um ponto de destaque para a cidade de Criciúma."
+      "resumo": "Uma mostra está aberta ao público, convidando-o a explorar as últimas tendências no campo da arquitetura e decoração."
     },
     {
       "cat": "tendencias",
@@ -134,7 +125,16 @@
       "fonte": "Panrotas",
       "data": "19 out 2026",
       "sk": 20261019,
-      "resumo": "A matéria sugere explorar São Paulo de forma diferenciada, combinando experiências em arquitetura, moda e música."
+      "resumo": "A cidade de São Paulo oferece opções para quem busca experiências fora do comum, combinando arquitetura, moda e música."
+    },
+    {
+      "cat": "tendencias",
+      "titulo": "Decoração: como escolher tendências que não saem de moda",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLXpENzFhNWVKbGc3dE5wY0JBZGxwUUtoaWJIOENoSmtKMC0xRGk0dXV3aXNTNzFQQzl2aEtNZTdlaml2cG95MFhJVE1oQ25GRUZ0ZXN0VVJ4NzlHdWhXMl9pVER1ZlRFenlYLW5MQ0o2V0EzTjRRVnF1WjdtTk1UVjQ2RFdwV2xtaVYtNHJ3ZVMxTFlwbU9YckthaEdHN3l6QmxjMTU5VW9uU01xUnBadXJweVFUZHFVSXc?oc=5",
+      "fonte": "Correio do Povo",
+      "data": "19 out 2026",
+      "sk": 20261019,
+      "resumo": "A matéria aborda como selecionar tendências de decoração que se mantêm relevantes e não se tornam obsoletas rapidamente."
     },
     {
       "cat": "profissao",
@@ -143,7 +143,7 @@
       "fonte": "Revista PROJETO",
       "data": "12 out 2026",
       "sk": 20261012,
-      "resumo": "O concurso de arquitetura indígena promovido pelo CAU/BR reconheceu e premiou seis projetos."
+      "resumo": "O concurso de arquitetura indígena promovido pelo CAU/BR reconheceu e premiou seis trabalhos destacados."
     },
     {
       "cat": "profissao",
@@ -152,7 +152,7 @@
       "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
       "data": "8 out 2026",
       "sk": 20261008,
-      "resumo": "A FNA está envolvida em um projeto da ICM que aborda o trabalho decente nas Rotas de Integração Sul-Americana."
+      "resumo": "A Federação Nacional dos Arquitetos e Urbanistas (FNA) está envolvida em um projeto da ICM que aborda o trabalho decente nas Rotas de Integração Sul-Americana."
     },
     {
       "cat": "eventos",
@@ -161,7 +161,7 @@
       "fonte": "Revista PROJETO",
       "data": "7 out 2026",
       "sk": 20261007,
-      "resumo": "A Revista PROJETO cobre o 22º Congresso Brasileiro de Arquitetos (CBA)."
+      "resumo": "A Revista PROJETO destaca informações sobre o 22º Congresso Brasileiro de Arquitetos (CBA)."
     },
     {
       "cat": "eventos",
@@ -170,7 +170,7 @@
       "fonte": "Casa Cor",
       "data": "5 out 2026",
       "sk": 20261005,
-      "resumo": "A notícia destaca o que ainda pode ser explorado nos últimos dias da CASACOR Ribeirão Preto 2026."
+      "resumo": "A CASACOR Ribeirão Preto 2026 está em seus dias finais, oferecendo as últimas oportunidades para descobrir seus ambientes e novidades."
     },
     {
       "cat": "eventos",
@@ -179,7 +179,7 @@
       "fonte": "Casa Cor",
       "data": "2 out 2026",
       "sk": 20261002,
-      "resumo": "A CASACOR Rio oferece uma área de convivência gratuita com café, uma floresta de bolso e lojas que representam o estilo de vida carioca."
+      "resumo": "A CASACOR Rio apresenta uma área de convivência gratuita que inclui café, uma floresta de bolso e lojas que refletem o estilo de vida carioca."
     }
   ]
 }
