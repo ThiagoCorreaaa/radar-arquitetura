@@ -1,5 +1,5 @@
 {
-  "updatedLabel": "21 de novembro de 2026",
+  "updatedLabel": "22 de novembro de 2026",
   "items": [
     {
       "cat": "profissao",
@@ -8,7 +8,7 @@
       "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
       "data": "19 nov 2026",
       "sk": 20261119,
-      "resumo": "O CAU/BR lançou a plataforma \"Contrate um Arquiteto\", que visa conectar a sociedade a profissionais da área."
+      "resumo": "O CAU/BR lançou a plataforma \"Contrate um Arquiteto\", que visa conectar a sociedade com profissionais da área."
     },
     {
       "cat": "premios",
@@ -17,7 +17,7 @@
       "fonte": "Revista PROJETO",
       "data": "19 nov 2026",
       "sk": 20261119,
-      "resumo": "O arquiteto Gustavo Utrabo foi o vencedor do prêmio Record Awards 2026."
+      "resumo": "O arquiteto Gustavo Utrabo foi o vencedor do prêmio Record Awards na edição de 2026."
     },
     {
       "cat": "tendencias",
@@ -26,16 +26,7 @@
       "fonte": "HojePR",
       "data": "19 nov 2026",
       "sk": 20261119,
-      "resumo": "Uma matéria destaca cinco tendências emergentes no campo da arquitetura e decoração para o ano de 2027."
-    },
-    {
-      "cat": "tendencias",
-      "titulo": "Estudantes de Design de Interiores da Univates visitam Mostra Glass 2026",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaThTZEZMcmp6cjBlT2pfZ0NacUNKdjRhcF9TczdEWTBnVk41djdTUE1aLUJJXzJoZnMtZy16WEtqcU9ob1pZdkJQbG1nNXVDOGdEdzl1Vzlabjk4ODJGVVRYQ2l2X1dscko3X0NXd2J3T1JMbG01Q3ZERHJaME0yWnBLcGx2ODR4U3g3bElkSHRRODRrcU1EV1J2RkppMWlqSWtzd04tRXA?oc=5",
-      "fonte": "Univates",
-      "data": "19 nov 2026",
-      "sk": 20261119,
-      "resumo": "Alunos do curso de Design de Interiores da Univates realizaram uma visita à Mostra Glass 2026."
+      "resumo": "Uma matéria destaca cinco tendências que prometem influenciar a arquitetura e a decoração no ano de 2027."
     },
     {
       "cat": "profissao",
@@ -47,22 +38,31 @@
       "resumo": "Álvaro Luiz Pedrotti foi nomeado o Arquiteto e Urbanista do Ano de 2026."
     },
     {
-      "cat": "premios",
-      "titulo": "ALICE FERRAZ | Quem é o arquiteto por trás do Edifício do Ano da ‘Architectural Record’? Brasileiro Gustavo Utrabo conta o que fez do Arquipeo um bom concorrente ao prêmio de uma das principais publicações sobre arquitetura do mundo. Leia a coluna c",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XT1dvUTFMbC1jdzBvRjFPWHpGRXg5VUlVOVEtT0pvZ09uVi02cmFxTFN1Qnl0MExMMXowakk2dmdsR3VIQWNxX2FkSGVuR1U5TUE?oc=5",
-      "fonte": "Instagram",
-      "data": "15 nov 2026",
-      "sk": 20261115,
-      "resumo": "A coluna de Alice Ferraz destaca o arquiteto brasileiro Gustavo Utrabo, que explica os motivos que levaram o projeto Arquipeo a ser um forte concorrente ao prêmio de Edifício do Ano da ‘Architectural Record’."
-    },
-    {
       "cat": "tendencias",
       "titulo": "Estas são as tendências de decoração que ganharão força em 2027",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HU3ROUzd6UXNyNW9YNVVXbEhidUVpZlQySWtCaVVJalpfVlBCcl9fSEg3NmhidlZ2ZzBsV0pTUGtSd0owUkR3cmpnQUdId3d4N3BDREdRb1p0TnVYZEYwTFllelk2RzE3MnYwVFk3UkQ?oc=5",
       "fonte": "ELLE Brasil",
       "data": "15 nov 2026",
       "sk": 20261115,
-      "resumo": "Uma publicação apresenta as tendências de decoração que devem se consolidar e ganhar destaque no ano de 2027."
+      "resumo": "Uma publicação apresenta as tendências de decoração que se espera que ganhem destaque e popularidade em 2027."
+    },
+    {
+      "cat": "premios",
+      "titulo": "ALICE FERRAZ | Quem é o arquiteto por trás do Edifício do Ano da ‘Architectural Record’? Brasileiro Gustavo Utrabo conta o que fez do Arquipeo um bom concorrente ao prêmio de uma das principais publicações sobre arquitetura do mundo. Leia a coluna c",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XT1dvUTFMbC1jdzBvRjFPWHpGRXg5VUlVOVEtT0pvZ09uVi02cmFxTFN1Qnl0MExMMXowakk2dmdsR3VIQWNxX2FkSGVuR1U5TUE?oc=5",
+      "fonte": "Instagram",
+      "data": "14 nov 2026",
+      "sk": 20261114,
+      "resumo": "A coluna de Alice Ferraz explora o trabalho do arquiteto brasileiro Gustavo Utrabo, responsável pelo Edifício do Ano da 'Architectural Record' com o projeto Arquipeo. Ele detalha os fatores que o fizeram um forte concorrente ao prêmio."
+    },
+    {
+      "cat": "premios",
+      "titulo": "O arquiteto por trás do Edifício do Ano da ‘Architectural Record’",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZEx6Mk9QZ3pIYVZwcDJod3BhdDZ4Q1k2dzdxZ1YydzNHNDRPQkhISUxKNjNUeHJYczJIRndqXy1mT1huTXZQcUFNNGhzOWdVbDdJYk14Rm1lem5tRG9xOXV0aUh2aE03VlRPaDRJQkdpZFZKemJicHlCOERURW92LUlCNVU2eVQzd0N4TXZkOW1JNGhxajM3bkxvVjJ1ZWJUeG8tZ1M2N2NHcnIybVI4ZllB0gG3AUFVX3lxTE5STHEyMEQ0WnRIZGV6alFSeEZZRHcyR0JaNmFoQ3R5T2c1STZtdGJtLXRrMlFkMXZNU0FrNHpMTTBRemZfb1p3cHV6dDJfZWJaLVRwMHNFS0RUUnhGT09oUjIxa092MnhaUWdDSTJ4Qlc2LXZzeWFFaEJOY0JlSHZvdVFSWHVxeFFYcC02aFRvSnB4cjVqdGtaLWhZekpuTTFJc1dZd1lyUXJJa2k1NEg1ZzdfTGpMcw?oc=5",
+      "fonte": "Estadão",
+      "data": "14 nov 2026",
+      "sk": 20261114,
+      "resumo": "A notícia aborda o arquiteto responsável pelo projeto que foi eleito o Edifício do Ano pela 'Architectural Record'."
     },
     {
       "cat": "profissao",
@@ -71,7 +71,7 @@
       "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
       "data": "13 nov 2026",
       "sk": 20261113,
-      "resumo": "A plataforma \"Contrate um Arquiteto\" do CAU Digital oferece a possibilidade de profissionais divulgarem seus portfólios."
+      "resumo": "A plataforma \"Contrate um Arquiteto\" oferece aos profissionais a possibilidade de divulgar seus portfólios dentro do ambiente do CAU Digital."
     },
     {
       "cat": "eventos",
@@ -80,7 +80,7 @@
       "fonte": "Moon BH",
       "data": "13 nov 2026",
       "sk": 20261113,
-      "resumo": "Um congresso em Belo Horizonte, organizado pelo ICP, reuniu especialistas para discutir temas de governança criminal e segurança."
+      "resumo": "Um congresso do ICP em Belo Horizonte vai reunir especialistas para debater temas relacionados à governança criminal e segurança."
     },
     {
       "cat": "premios",
@@ -89,7 +89,7 @@
       "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
       "data": "12 nov 2026",
       "sk": 20261112,
-      "resumo": "O CAU/PE anunciou os indicados para o Prêmio Acácio Gil Borsoi 2026, e a votação para a premiação já está aberta."
+      "resumo": "O CAU/PE anunciou os indicados para o Prêmio Acácio Gil Borsoi de 2026, e a votação para a premiação já está aberta."
     },
     {
       "cat": "premios",
@@ -98,7 +98,7 @@
       "fonte": "Forbes Brasil",
       "data": "11 nov 2026",
       "sk": 20261111,
-      "resumo": "O Prêmio Deca homenageou a arquiteta Débora Aguiar, reconhecendo sua trajetória e contribuições para a arquitetura brasileira."
+      "resumo": "O Prêmio Deca homenageou a arquiteta Débora Aguiar, reconhecendo sua premiada trajetória e contribuições para a arquitetura brasileira."
     },
     {
       "cat": "tendencias",
@@ -107,7 +107,7 @@
       "fonte": "CNN Brasil",
       "data": "11 nov 2026",
       "sk": 20261111,
-      "resumo": "A cor \"Sol da Meia-Noite\" é apontada como uma forte candidata a dominar as tendências de decoração e moda em 2027."
+      "resumo": "Uma reportagem apresenta a cor \"Sol da Meia-Noite\", apontada como uma forte candidata a dominar as tendências de decoração e moda em 2027."
     },
     {
       "cat": "tendencias",
@@ -116,16 +116,7 @@
       "fonte": "Revista Hotéis",
       "data": "10 nov 2026",
       "sk": 20261110,
-      "resumo": "O Hub Hotel DesignX explora as principais tendências na arquitetura e no setor hoteleiro."
-    },
-    {
-      "cat": "premios",
-      "titulo": "Conheça os vencedores do 11º Prêmio Saint-Gobain AsBEA de Arquitetura",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVFlRc0Z1dENDNFA1TzM2YWFzMl9lMnp6aUQ2VTByZkdsV3diX1ZsaTNaSDdoQ1VjeGtCdHJ4UUQyaVJMNWNIY1BNMGJIZkRYaXZKU3pTc0ZnYkpZYXV1aUtmS1duSzRNTHAzX1Y3VXFuUS1VNWpLRXhodFJBTVlZNTBlclR0elFYNkx0Vi0xLUxkcVRteGlBWDJ2OUZ3MHFYVE00c1Vqc0tocDVxQ1E?oc=5",
-      "fonte": "Revista PROJETO",
-      "data": "9 nov 2026",
-      "sk": 20261109,
-      "resumo": "Foram anunciados os vencedores da 11ª edição do Prêmio Saint-Gobain AsBEA de Arquitetura."
+      "resumo": "O Hub Hotel DesignX explora as tendências emergentes nos setores de arquitetura e hotelaria."
     },
     {
       "cat": "eventos",
@@ -143,7 +134,16 @@
       "fonte": "Casa Cor",
       "data": "3 nov 2026",
       "sk": 20261103,
-      "resumo": "A CASACOR SC | Florianópolis entra em sua última semana, oferecendo um \"Special Sale\" com descontos em peças dos ambientes expostos."
+      "resumo": "A CASACOR SC em Florianópolis entra em sua última semana, oferecendo um Special Sale com descontos em peças dos ambientes expostos."
+    },
+    {
+      "cat": "tendencias",
+      "titulo": "As tendências para a decoração 2027 apresentadas no High Point Market",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSkFlenBHZVl2c2ZsLTBvNURsNDZoUDhnX1JhcTdrQzlHeXplWWxCN2lMZTY1QnItSF9DSjdIdnVBdnV5N0laajMtS2FOdThtS3Y2U0VRMWMzV0VIMl9QRnVNNVVROEhySlRPektZejZLWGVUUi1yeDFQSGMxc3VfTHZDOG5UZGM?oc=5",
+      "fonte": "MONDO MODA",
+      "data": "3 nov 2026",
+      "sk": 20261103,
+      "resumo": "As tendências de decoração para 2027 foram reveladas e apresentadas durante o evento High Point Market."
     },
     {
       "cat": "profissao",
@@ -152,7 +152,16 @@
       "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
       "data": "26 out 2026",
       "sk": 20261026,
-      "resumo": "O CAU/BR iniciou uma pesquisa para identificar atividades que ainda não estão disponíveis para o Registro de Responsabilidade Técnica (RRT)."
+      "resumo": "O CAU/BR iniciou uma pesquisa para identificar atividades que ainda não estão contempladas para o Registro de Responsabilidade Técnica (RRT)."
+    },
+    {
+      "cat": "profissao",
+      "titulo": "Últimos dias para se inscrever em concurso para requalificação de avenida",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLUxPSGUyaU41WVZ4WkE4bkRxZWltcjR3S1ktdms1NDhSbnFjekFLcFRRQ1FiUnVjSGhtMURtYzZ3N3l5OEhxdU9FOWVRaU93cG04MndLeWNvSHRxMUl1VTBWa3R1RmVNaUY3OHJvWVNrSGk2MWhFS1BRT2FNQk42Nk1ETFFSXzVjbTA4ZDJ2MkR2M1NPcjRxR1d6TQ?oc=5",
+      "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
+      "data": "26 out 2026",
+      "sk": 20261026,
+      "resumo": "Restam poucos dias para os interessados se inscreverem em um concurso que visa a requalificação de uma avenida."
     },
     {
       "cat": "eventos",
@@ -161,16 +170,7 @@
       "fonte": "Casa Cor",
       "data": "26 out 2026",
       "sk": 20261026,
-      "resumo": "A CASACOR Rio 2026 destaca ambientes que foram projetados para se transformar e evoluir durante o período da exposição."
-    },
-    {
-      "cat": "profissao",
-      "titulo": "CAU/BR lança plataforma Contrate um Arquiteto para cadastrar profissionais",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRXJ6a2dEN0pBSURjY0U3MzdNSTVFazV6cDVteFZEaVFMaXlVekFTRU1Uc0l1TklGdWJ0NlJkNDhxSFkybDVna0RtLUQwSWVQeGxqNUhCVXhPQV9Tc2dXeGpSUkhzMTBsT1ZPVm5MU3NNSkhYRFVCWmtiMEhkNnVUZFROTkxsSmo4UmotSlZoRHBJU1lpdDhRWjJLYjg?oc=5",
-      "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
-      "data": "23 out 2026",
-      "sk": 20261023,
-      "resumo": "O CAU/BR lançou a plataforma \"Contrate um Arquiteto\", destinada ao cadastro de profissionais da área."
+      "resumo": "A CASACOR Rio 2026 destaca ambientes inovadores que foram projetados para se transformar e evoluir durante o período da mostra."
     },
     {
       "cat": "eventos",
@@ -179,7 +179,7 @@
       "fonte": "Casa Cor",
       "data": "13 out 2026",
       "sk": 20261013,
-      "resumo": "O Prêmio CASACOR Brasília / Correio Braziliense concedeu reconhecimento aos melhores ambientes apresentados na mostra de 2026."
+      "resumo": "O Prêmio CASACOR Brasília, em parceria com o Correio Braziliense, celebrou e reconheceu os ambientes de maior destaque na mostra de 2026."
     }
   ]
 }
