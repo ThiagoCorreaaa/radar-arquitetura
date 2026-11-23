@@ -1,5 +1,5 @@
 {
-  "updatedLabel": "22 de novembro de 2026",
+  "updatedLabel": "23 de novembro de 2026",
   "items": [
     {
       "cat": "profissao",
@@ -8,7 +8,7 @@
       "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
       "data": "19 nov 2026",
       "sk": 20261119,
-      "resumo": "O CAU/BR lançou a plataforma \"Contrate um Arquiteto\", que visa conectar a sociedade com profissionais da área."
+      "resumo": "O CAU/BR lançou a plataforma \"Contrate um Arquiteto\", tornando-a disponível para a sociedade."
     },
     {
       "cat": "premios",
@@ -17,7 +17,7 @@
       "fonte": "Revista PROJETO",
       "data": "19 nov 2026",
       "sk": 20261119,
-      "resumo": "O arquiteto Gustavo Utrabo foi o vencedor do prêmio Record Awards na edição de 2026."
+      "resumo": "Gustavo Utrabo foi anunciado como o vencedor do Record Awards de 2026."
     },
     {
       "cat": "tendencias",
@@ -26,7 +26,16 @@
       "fonte": "HojePR",
       "data": "19 nov 2026",
       "sk": 20261119,
-      "resumo": "Uma matéria destaca cinco tendências que prometem influenciar a arquitetura e a decoração no ano de 2027."
+      "resumo": "A matéria destaca cinco tendências de arquitetura e decoração que são esperadas para o ano de 2027."
+    },
+    {
+      "cat": "tendencias",
+      "titulo": "CONTEÚDO PATROCINADO por @dexco.oficial | Objetivo é estreitar ainda mais a relação com os profissionais do segmento de arquitetura e design de interiores.⁣ ⁣ 🔗 Leia mais em estadao.com.br⁣ ⁣ #ebs",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKNXVuT05qMzQ0OFBlSzFzWXY1dDluZ2U4dHdsY2R6QldUOGQtQ2M4dDVvLUFYZXY4M2Rfdm5GUGMydlRrc0VybDZuWEhkN0t5YUE?oc=5",
+      "fonte": "Instagram",
+      "data": "18 nov 2026",
+      "sk": 20261118,
+      "resumo": "Em um conteúdo patrocinado pela Dexco, o objetivo é fortalecer a conexão com profissionais de arquitetura e design de interiores."
     },
     {
       "cat": "profissao",
@@ -35,7 +44,7 @@
       "fonte": "Federação Nacional dos Arquitetos e Urbanistas",
       "data": "16 nov 2026",
       "sk": 20261116,
-      "resumo": "Álvaro Luiz Pedrotti foi nomeado o Arquiteto e Urbanista do Ano de 2026."
+      "resumo": "Álvaro Luiz Pedrotti foi eleito o Arquiteto e Urbanista do Ano de 2026."
     },
     {
       "cat": "tendencias",
@@ -44,16 +53,7 @@
       "fonte": "ELLE Brasil",
       "data": "15 nov 2026",
       "sk": 20261115,
-      "resumo": "Uma publicação apresenta as tendências de decoração que se espera que ganhem destaque e popularidade em 2027."
-    },
-    {
-      "cat": "premios",
-      "titulo": "ALICE FERRAZ | Quem é o arquiteto por trás do Edifício do Ano da ‘Architectural Record’? Brasileiro Gustavo Utrabo conta o que fez do Arquipeo um bom concorrente ao prêmio de uma das principais publicações sobre arquitetura do mundo. Leia a coluna c",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XT1dvUTFMbC1jdzBvRjFPWHpGRXg5VUlVOVEtT0pvZ09uVi02cmFxTFN1Qnl0MExMMXowakk2dmdsR3VIQWNxX2FkSGVuR1U5TUE?oc=5",
-      "fonte": "Instagram",
-      "data": "14 nov 2026",
-      "sk": 20261114,
-      "resumo": "A coluna de Alice Ferraz explora o trabalho do arquiteto brasileiro Gustavo Utrabo, responsável pelo Edifício do Ano da 'Architectural Record' com o projeto Arquipeo. Ele detalha os fatores que o fizeram um forte concorrente ao prêmio."
+      "resumo": "A reportagem apresenta as tendências de decoração que devem se destacar e ganhar força no ano de 2027."
     },
     {
       "cat": "premios",
@@ -62,7 +62,7 @@
       "fonte": "Estadão",
       "data": "14 nov 2026",
       "sk": 20261114,
-      "resumo": "A notícia aborda o arquiteto responsável pelo projeto que foi eleito o Edifício do Ano pela 'Architectural Record'."
+      "resumo": "A matéria explora o perfil do arquiteto responsável pelo projeto que foi eleito o Edifício do Ano pela ‘Architectural Record’."
     },
     {
       "cat": "profissao",
@@ -71,7 +71,7 @@
       "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
       "data": "13 nov 2026",
       "sk": 20261113,
-      "resumo": "A plataforma \"Contrate um Arquiteto\" oferece aos profissionais a possibilidade de divulgar seus portfólios dentro do ambiente do CAU Digital."
+      "resumo": "A plataforma \"Contrate um Arquiteto\" do CAU Digital oferece aos profissionais a possibilidade de divulgar seus portfólios."
     },
     {
       "cat": "eventos",
@@ -80,16 +80,16 @@
       "fonte": "Moon BH",
       "data": "13 nov 2026",
       "sk": 20261113,
-      "resumo": "Um congresso do ICP em Belo Horizonte vai reunir especialistas para debater temas relacionados à governança criminal e segurança."
+      "resumo": "Um congresso em Belo Horizonte, organizado pelo ICP, reúne especialistas para discutir temas de governança criminal e segurança."
     },
     {
-      "cat": "premios",
-      "titulo": "CAU/PE divulga indicados ao Prêmio Acácio Gil Borsoi 2026; votação está aberta",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORGdwckZqTmplSkYtUUxBQWNZbkg2UFMwWXRFNDZPRFN3VjRsTVhEeWd4a0lzMk01VFZpNk9ETUFVVkNLdGQ1YUgwelNaUVM3Ml9PaExUV3N4WUplXzFIYmItd0JJRTEwd2N2Um54MHFmLThFRXhHZ3NUS0Z3NDNNRHEyYV9nWThIVE52RGRMVEtqU1M5YnhKZ3VjU1BQSU84?oc=5",
-      "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
+      "cat": "tendencias",
+      "titulo": "O museu desta cidade gaúcha foi desenhado por Lucio Costa nos anos 1930 e virou referência de arquitetura moderna dentro de um sítio histórico",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOSndra3B2aDhsa0pZQlF5dXFuRTkzV3djVkt1cFd0N3FnSVg5MExTR2l2bzBTTE1mMi01R2VWVDNxX1dhc3BRZTM2S1N6OEFuWjZhX0toQkxrSUxQTEUtTnRlQmt1ajJUTV9maVlLd2xrVnRDaVF1WDdHVlpUdTNENUtNM2dsS0k3ZXFhLW1GVXE5bkdOYTNkMWl0VTFmVEtXalBKRnFyVFd0MmNaYzRPTm54UERfejVwTUh6eE85cTgtUXN0cG5BVEhTeG9acnFRTkVQWFRPRE9VdUNEcFF0VkRWYU5scm1IUHgxQXBCVC1HYVZlTWpWLVpsTUZpS1VuRUZGQXl6ZXI3dGxhUG5HRVR6RldkTHJUYTIw?oc=5",
+      "fonte": "Brasil 247",
       "data": "12 nov 2026",
       "sk": 20261112,
-      "resumo": "O CAU/PE anunciou os indicados para o Prêmio Acácio Gil Borsoi de 2026, e a votação para a premiação já está aberta."
+      "resumo": "Um museu em uma cidade gaúcha, projetado por Lucio Costa na década de 1930, tornou-se um marco da arquitetura moderna em um sítio histórico."
     },
     {
       "cat": "premios",
@@ -98,7 +98,7 @@
       "fonte": "Forbes Brasil",
       "data": "11 nov 2026",
       "sk": 20261111,
-      "resumo": "O Prêmio Deca homenageou a arquiteta Débora Aguiar, reconhecendo sua premiada trajetória e contribuições para a arquitetura brasileira."
+      "resumo": "O Prêmio Deca homenageia a arquiteta Débora Aguiar, reconhecendo sua trajetória e contribuições premiadas para a arquitetura brasileira."
     },
     {
       "cat": "tendencias",
@@ -107,16 +107,16 @@
       "fonte": "CNN Brasil",
       "data": "11 nov 2026",
       "sk": 20261111,
-      "resumo": "Uma reportagem apresenta a cor \"Sol da Meia-Noite\", apontada como uma forte candidata a dominar as tendências de decoração e moda em 2027."
+      "resumo": "A matéria apresenta a cor “Sol da Meia-Noite” como uma possível tendência dominante na decoração e moda para o ano de 2027."
     },
     {
-      "cat": "tendencias",
-      "titulo": "Hub Hotel DesignX, tendências na arquitetura e hoteleira",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOXzZyc1ZCUlV3d0xTeFlZNDJja0NQUFFlRGYtNnFNb1g2N1Rlb3RSVldXQTAza3E1UGN4bVlCYUFXbWlMc1B6YUNUOUlheldZanB0SjViUlJfSHNJWTl4NUl4dGlIWWNUdHBxMENCakxVVGNIbDFMc3JwVUIxWFEza3ZOVU1PY3dnVlA3ZUNB?oc=5",
-      "fonte": "Revista Hotéis",
-      "data": "10 nov 2026",
-      "sk": 20261110,
-      "resumo": "O Hub Hotel DesignX explora as tendências emergentes nos setores de arquitetura e hotelaria."
+      "cat": "premios",
+      "titulo": "Conheça os vencedores do 11º Prêmio Saint-Gobain AsBEA de Arquitetura",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVFlRc0Z1dENDNFA1TzM2YWFzMl9lMnp6aUQ2VTByZkdsV3diX1ZsaTNaSDdoQ1VjeGtCdHJ4UUQyaVJMNWNIY1BNMGJIZkRYaXZKU3pTc0ZnYkpZYXV1aUtmS1duSzRNTHAzX1Y3VXFuUS1VNWpLRXhodFJBTVlZNTBlclR0elFYNkx0Vi0xLUxkcVRteGlBWDJ2OUZ3MHFYVE00c1Vqc0tocDVxQ1E?oc=5",
+      "fonte": "Revista PROJETO",
+      "data": "9 nov 2026",
+      "sk": 20261109,
+      "resumo": "Foram anunciados os vencedores da 11ª edição do Prêmio Saint-Gobain AsBEA de Arquitetura."
     },
     {
       "cat": "eventos",
@@ -125,7 +125,16 @@
       "fonte": "TV Sim Brasil",
       "data": "7 nov 2026",
       "sk": 20261107,
-      "resumo": "Um projeto focado nos cuidados com Brumadinho foi reconhecido e premiado na Bienal de Arquitetura."
+      "resumo": "Um projeto voltado para Brumadinho foi reconhecido e premiado na Bienal de Arquitetura."
+    },
+    {
+      "cat": "eventos",
+      "titulo": "Última semana da CASACOR Rio: Special Sale tem peças dos ambientes com até 50% de desconto",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWGxjUm5PNzVNN29Jai1oU0tYelRNdHpPSGFuckREVmNnNXZSdzNLeWdwQlRqWk5NZ1VHLVhpTHJhcHBxa0lvRkZZUDJkMm8tZ00tSU1rU2NVRUVsekpLa2ZoeDZJRmVZNDFoRzNGOGJvQ3VZdlprR1ZLVFJYNVc3VldaQUJVUXo0dXp0VGhfdXJkd1M0?oc=5",
+      "fonte": "Casa Cor",
+      "data": "4 nov 2026",
+      "sk": 20261104,
+      "resumo": "A CASACOR Rio entra em sua última semana, oferecendo uma Special Sale com descontos de até 50% em peças dos ambientes expostos."
     },
     {
       "cat": "eventos",
@@ -134,16 +143,16 @@
       "fonte": "Casa Cor",
       "data": "3 nov 2026",
       "sk": 20261103,
-      "resumo": "A CASACOR SC em Florianópolis entra em sua última semana, oferecendo um Special Sale com descontos em peças dos ambientes expostos."
+      "resumo": "A CASACOR SC em Florianópolis está em sua última semana, com uma Special Sale que oferece descontos em peças dos ambientes."
     },
     {
-      "cat": "tendencias",
-      "titulo": "As tendências para a decoração 2027 apresentadas no High Point Market",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSkFlenBHZVl2c2ZsLTBvNURsNDZoUDhnX1JhcTdrQzlHeXplWWxCN2lMZTY1QnItSF9DSjdIdnVBdnV5N0laajMtS2FOdThtS3Y2U0VRMWMzV0VIMl9QRnVNNVVROEhySlRPektZejZLWGVUUi1yeDFQSGMxc3VfTHZDOG5UZGM?oc=5",
-      "fonte": "MONDO MODA",
-      "data": "3 nov 2026",
-      "sk": 20261103,
-      "resumo": "As tendências de decoração para 2027 foram reveladas e apresentadas durante o evento High Point Market."
+      "cat": "premios",
+      "titulo": "Arquiteto formado pela UFAL Arapiraca vence prêmio internacional de arquitetura paisagista",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNmtVdG45TkVMelNnanYyYXJCZ3pWYmRlTVlKdmFfbXBrMm9uQXdPM19vQWVsTG9rTy1oMUswRHIzOWFYTHV4RHEteXVGemNUbXJveVNpdUZWSEpaMnkxX3lKLVVSZEZqOTUtUjBWVjZnd29tY0wydExDbndkdktQWnUzNDZCRTY0TmdKYV8yZFJmRm5NelNlT1Z6RS1DU2ZFWkphVzhHdnVERXRaNEdmTzRkSF81X0hiUndr?oc=5",
+      "fonte": "Alagoas Notícia Boa",
+      "data": "1 nov 2026",
+      "sk": 20261101,
+      "resumo": "Um arquiteto graduado pela UFAL Arapiraca conquistou um prêmio internacional na área de arquitetura paisagista."
     },
     {
       "cat": "profissao",
@@ -152,7 +161,7 @@
       "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
       "data": "26 out 2026",
       "sk": 20261026,
-      "resumo": "O CAU/BR iniciou uma pesquisa para identificar atividades que ainda não estão contempladas para o Registro de Responsabilidade Técnica (RRT)."
+      "resumo": "O CAU/BR lançou uma pesquisa para identificar atividades que ainda não estão contempladas para o Registro de Responsabilidade Técnica (RRT)."
     },
     {
       "cat": "profissao",
@@ -161,7 +170,7 @@
       "fonte": "Conselho de Arquitetura e Urbanismo | CAU/BR",
       "data": "26 out 2026",
       "sk": 20261026,
-      "resumo": "Restam poucos dias para os interessados se inscreverem em um concurso que visa a requalificação de uma avenida."
+      "resumo": "Estão abertas as últimas oportunidades para inscrições em um concurso que visa a requalificação de uma avenida."
     },
     {
       "cat": "eventos",
@@ -170,16 +179,7 @@
       "fonte": "Casa Cor",
       "data": "26 out 2026",
       "sk": 20261026,
-      "resumo": "A CASACOR Rio 2026 destaca ambientes inovadores que foram projetados para se transformar e evoluir durante o período da mostra."
-    },
-    {
-      "cat": "eventos",
-      "titulo": "Prêmio CASACOR Brasília / Correio Braziliense reconhece os melhores ambientes da mostra de 2026",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOa3hoQUNBbHpnNUQ1eFBHQjB6OGhwTmoxdGdHQ2dod21nZFBhZ3VTaHpBZE94VWZMM1EwMTZHcEZ6RjhQRlpmWFhmNDFzT01NN3U0dzBhTFZaNTJGVFRQblFnamFKSThiSGtVNjRpWG03WnlqS2hacVRCZG1EbG9wSzNrbW1EaHRaZXItemxMZlluSEJ3SER5VDhSdk83ZG9NdF9NaFZCbFhGVjQwLUVacGNGdktVbkdVTm1naXRSRk90OE40V1N6OTJJYjFzMDMycUxweEtTNA?oc=5",
-      "fonte": "Casa Cor",
-      "data": "13 out 2026",
-      "sk": 20261013,
-      "resumo": "O Prêmio CASACOR Brasília, em parceria com o Correio Braziliense, celebrou e reconheceu os ambientes de maior destaque na mostra de 2026."
+      "resumo": "A CASACOR Rio 2026 destaca ambientes que foram projetados para se transformar e evoluir durante o período da exposição."
     }
   ]
 }
